@@ -1,0 +1,55 @@
+// 색상, 폰트, 간격, z-index 등
+/* pretendard */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+/* paperozi */
+@font-face {
+    font-family: 'Paperozi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paperozi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paperozi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-6SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paperozi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+.paperozi {
+    font-family: 'Paperozi';
+}
+
+.pretendard {
+    font-family: 'Pretendard';
+}
+
+// colors
+$Color_Btn_Black: #191919;
+$Color_Head_Black: #1a1a1a;
+$Color_Conts_Black: #2c2c2c;
+$Color_Foot_Black: #484848;
+$Color_D_Grey: #818181;
+$Color_Grey: #aeaeae;
+$Color_L_Grey: #dadada;
+$Color_Silver: #eee;
+$Color_White: #fff;
+
+$Color_Primary: #ffb619;
+$Color_L_Primary: #ffd95b;
+$Color_ExtraL_Primary: #ffeca2;

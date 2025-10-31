@@ -1,0 +1,12 @@
+@use './variables' as v;
+// button, card, modal etc
+
+// button 
+.btn-black {
+    padding: 20px 70px;
+    background-color: v.$Color_Btn_Black;
+    color: v.$Color_White;
+    font-family: 'Pretendard';
+    border-radius: 50px;
+    font-size: 18px;
+}

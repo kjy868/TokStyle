@@ -1,0 +1,22 @@
+@use '../variables' as v;
+
+.key {
+    width: 100%;
+    height: 500px;
+    color: v.$Color_Head_Black;
+    background: v.$Color_Primary;
+    .container {
+        
+    }
+
+    &__title {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    &__desc {
+        font-size: 24px;
+        font-weight: 500;
+        color: v.$Color_Conts_Black;
+    }
+}
