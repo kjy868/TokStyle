@@ -12,9 +12,15 @@ body {
     position: relative;
     padding-top: 90px;
     line-height: 1.3;
+    font-family: 'Pretendard'
 }
 
 a {
     text-decoration: none;
     display: block;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
 }

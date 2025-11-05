@@ -1,12 +1,122 @@
 @use './variables' as v;
+@use './function' as f;
 // button, card, modal etc
 
 // button 
 .btn-black {
-    padding: 20px 70px;
+    padding: f.rem(15) f.rem(60);
     background-color: v.$Color_Btn_Black;
     color: v.$Color_White;
     font-family: 'Pretendard';
     border-radius: 50px;
-    font-size: 18px;
+    font-size: f.rem(18);
+}
+
+.btn-theme {
+    padding: f.rem(10) f.rem(20);
+    background-color: v.$Color_Silver;
+    color: v.$Color_Conts_Black;
+    font-family: 'Pretendard';
+    font-size: f.rem(16);
+    border-radius: 50px;
+    display: inline-block;
+
+    &--active {
+        background-color: v.$Color_Primary;
+    }
+}
+
+
+
+// card
+.card-theme {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: f.rem(514);
+
+    &__link {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__img-wrap {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        // aspect-ratio: 1 / 1.2;
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.4s ease;
+    }
+
+    &:hover &__img {
+        transform: scale(1.05);
+    }
+
+    &__overlay {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    &:hover &__overlay {
+        opacity: 1;
+    }
+
+    &__text-wrap {
+        position: absolute;
+        bottom: f.rem(20);
+        left: f.rem(20);
+        color: #fff;
+        font-family: 'Paperozi';
+        word-break: keep-all;
+        display: none;
+        transition: 0.3s all ease;
+    }
+
+    &:hover &__text-wrap {
+        display: block;
+    }
+
+    &__title {
+        font-size: f.rem(20);
+        margin-bottom: f.rem(6);
+    }
+
+    &__artist {
+        display: flex;
+        align-items: center;
+        gap: f.rem(4);
+    }
+
+    &__artist-img {
+        width: f.rem(24);
+        height: f.rem(24);
+        border-radius: 50px;
+        background-color: #fff;
+    }
+
+    &__artist-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__artist-name {
+        font-size: f.rem(16);
+        font-weight: 300;
+    }
 }

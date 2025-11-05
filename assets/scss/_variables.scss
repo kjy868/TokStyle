@@ -1,3 +1,4 @@
+@use 'function' as f;
 // 색상, 폰트, 간격, z-index 등
 /* pretendard */
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
@@ -53,3 +54,16 @@ $Color_White: #fff;
 $Color_Primary: #ffb619;
 $Color_L_Primary: #ffd95b;
 $Color_ExtraL_Primary: #ffeca2;
+
+// fonts
+.title {
+    font-family: 'Paperozi';
+    font-weight: 600;
+    font-size: f.rem(36);
+    margin-bottom: f.rem(15);
+}
+
+// spacing
+.mt {
+    margin-top: f.rem(100);
+}

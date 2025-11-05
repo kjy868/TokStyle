@@ -1,5 +1,21 @@
+// flex mixin
 @mixin flex($display: flex, $justifyContents: center, $alignItems: stretch) {
     display: $display;
     justify-content: $justifyContents;
     align-items: $alignItems;
+}
+
+// center mixin
+@mixin center($position: absolute) {
+    position: $position;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// img mixin
+@mixin img($width: 100%, $height: auto, $objectFit: cover) {
+    width: $width;
+    height: $height;
+    object-fit: $objectFit;
 }
