@@ -67,3 +67,11 @@
         display: inline-block;
     }
 }
+
+.popular {
+    &__button-wrap {
+        @include m.flex();
+        gap: f.rem(10);
+        margin-bottom: f.rem(20);
+    }
+}
