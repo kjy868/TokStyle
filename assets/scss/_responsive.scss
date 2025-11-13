@@ -1,0 +1,30 @@
+$breakpoint-xl: 1600px;
+$breakpoint-lg: 1023px;
+$breakpoint-md: 767px;
+$breakpoint-sm: 480px;
+
+@mixin responsive($device) {
+    @if $device ==xl {
+        @media (max-width: $breakpoint-xl) {
+            @content;
+        }
+    }
+
+    @else if $device ==lg {
+        @media (max-width: $breakpoint-lg) {
+            @content;
+        }
+    }
+
+    @else if $device ==md {
+        @media (max-width: $breakpoint-md) {
+            @content;
+        }
+    }
+
+    @else if $device ==sm {
+        @media (max-width: $breakpoint-sm) {
+            @content;
+        }
+    }
+}

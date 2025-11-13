@@ -1,12 +1,10 @@
 @use 'variables';
-@use 'mixin';
 @use 'reset';
-@use 'base';
-@use 'layout';
-@use 'components';
-
-// vendors
 @use 'vendors/swiper';
+@use 'base';
+@use 'components';
+@use 'layout';
+@use 'utils';
 
 // pages
 @use 'pages/home';

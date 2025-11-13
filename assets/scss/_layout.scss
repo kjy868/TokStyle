@@ -1,13 +1,14 @@
+@use './utils' as u;
+
 // header, footer, container
 
 .container {
-    width: 1600px;
-    padding: 0 20px;
+    max-width: 1600px;
+    width: 100%;
+    padding: 0 u.rem(20);
     margin: 0 auto;
-}
 
-@media (max-width: 1023px) {
-    .container {
-        width: 100%;
+    @include u.responsive(xl) {
+        max-width: 100%;
     }
 }
