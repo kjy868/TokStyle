@@ -3,7 +3,6 @@
 // button, card, modal etc
 
 // swiper pagination
-/* _components.scss */
 .my-pagination {
     .swiper-pagination-bullet {
         width: 16px;
@@ -16,7 +15,7 @@
     }
 
     .swiper-pagination-bullet-active {
-        background-color: #1e90ff;
+        background-color: v.$Color_Head_Black;
         opacity: 1;
         transform: scale(1.3);
     }
@@ -65,7 +64,7 @@
     border-radius: 1rem;
     overflow: hidden;
     transition: transform 0.3s ease;
-    width: u.rem(290);
+    max-width: u.rem(290);
     height: u.rem(514);
     border: 1px solid v.$Color_L_Grey;
 
