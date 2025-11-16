@@ -19,9 +19,6 @@ let swiper01 = new Swiper(".key__swiper", {
 
 // popular swiper
 let swiper02 = new Swiper(".popular__swiper", {
-    slidesPerView: 5,
-    // spaceBetween: 25,
-    // loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
         el: ".swiper-pagination",
@@ -29,31 +26,31 @@ let swiper02 = new Swiper(".popular__swiper", {
     },
     breakpoints: {
         1440: {
-            slidesPerView: 5,
-            spaceBetween: 30
-        },
-        1200: {
             slidesPerView: 4.5,
             spaceBetween: 20
         },
-        1024: {
+        1200: {
             slidesPerView: 4,
             spaceBetween: 20
         },
-        768: {
+        1024: {
             slidesPerView: 3.5,
             spaceBetween: 20
         },
-        640: {
+        768: {
             slidesPerView: 3,
             spaceBetween: 20
         },
+        640: {
+            slidesPerView: 2.8,
+            spaceBetween: 20
+        },
         480: {
-            slidesPerView: 2.5,
+            slidesPerView: 1.8,
             spaceBetween: 20
         },
         360: {
-            slidesPerView: 2,
+            slidesPerView: 1.3,
             spaceBetween: 20
         }
     }

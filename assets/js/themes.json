@@ -3,7 +3,7 @@
         "id": 101,
         "title": "스타라이트(핑크/블루)☆ (IOS/AND)",
         "description": "여름에 잘 어울리는 카톡테마",
-        "thumbnail": "../images/themes/artist1/theme01.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme01.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -15,7 +15,7 @@
         "id": 102,
         "title": "여름의 메론소다☆ (AND/IOS)",
         "description": "여름에 딱 어울리는 상큼한 테마",
-        "thumbnail": "../images/themes/artist1/theme02.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme02.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -27,7 +27,7 @@
         "id": 103,
         "title": "블루베리 크림치즈🫐 (AND/IOS)",
         "description": "블루베리와 크림치즈의 조합!",
-        "thumbnail": "../images/themes/artist1/theme03.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme03.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -39,7 +39,7 @@
         "id": 104,
         "title": "행운의 돌고래★ (AND/IOS)",
         "description": "행운의 돌고래 카카오톡 테마",
-        "thumbnail": "../images/themes/artist1/theme04.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme04.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -51,7 +51,7 @@
         "id": 105,
         "title": "맛있는 푸딩★ (AND/IOS)",
         "description": "포근하고 맛있는 푸딩",
-        "thumbnail": "../images/themes/artist1/theme05.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme05.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -63,7 +63,7 @@
         "id": 106,
         "title": "여름엔 크림소다!☆ (AND/IOS)",
         "description": "시원한 바다가 떠오르는 청량한 테마",
-        "thumbnail": "../images/themes/artist1/theme06.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme06.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -75,7 +75,7 @@
         "id": 107,
         "title": "행운의 네잎클로버!🍀(IOS/AND)",
         "description": "행운이 가득한 하루가 되기를",
-        "thumbnail": "../images/themes/artist1/theme07.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme07.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -87,7 +87,7 @@
         "id": 108,
         "title": "나루토마키 타임-!🍥(IOS/AND)",
         "description": "컵라면에 든 어묵",
-        "thumbnail": "../images/themes/artist1/theme08.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme08.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -99,7 +99,7 @@
         "id": 109,
         "title": "토마토가 좋아!🍅 카톡 테마☆ (IOS/AND)",
         "description": "귀여운 방울토마토들",
-        "thumbnail": "../images/themes/artist1/theme09.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme09.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -111,7 +111,7 @@
         "id": 110,
         "title": "메론빵거북이 카카오톡 테마☆ 🐢 (IOS/AND)",
         "description": "귀여운 방울토마토들",
-        "thumbnail": "../images/themes/artist1/theme10.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme10.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -123,7 +123,7 @@
         "id": 111,
         "title": "딸기러버♡🍓(IOS/AND)",
         "description": "맛있는 딸기",
-        "thumbnail": "../images/themes/artist1/theme11.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme11.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -135,7 +135,7 @@
         "id": 112,
         "title": "퓨어천사☆(IOS/AND)",
         "description": "잔잔하고 클린한 느낌",
-        "thumbnail": "../images/themes/artist1/theme12.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme12.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -147,7 +147,7 @@
         "id": 113,
         "title": "나의작은아기왹...👽☆ (IOS/AND)",
         "description": "왹져들을 위한 카톡 테마!",
-        "thumbnail": "../images/themes/artist1/theme13.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme13.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -159,7 +159,7 @@
         "id": 114,
         "title": "눈사람솜⁺⊹˚.⋆ (IOS/AND)",
         "description": "눈이 펑펑 내려요",
-        "thumbnail": "../images/themes/artist1/theme14.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme14.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -171,7 +171,7 @@
         "id": 115,
         "title": "🍌☆ 바나나스플릿☆🍌 (IOS/AND)",
         "description": "달콤달콤 귀여운 바나나",
-        "thumbnail": "../images/themes/artist1/theme15.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme15.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -183,7 +183,7 @@
         "id": 116,
         "title": "포근당고🍡 (IOS/AND)",
         "description": "귀엽고 맛있는 당고",
-        "thumbnail": "../images/themes/artist1/theme16.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme16.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -195,7 +195,7 @@
         "id": 117,
         "title": "봄에는 벚꽃소다🌸! (IOS/AND)",
         "description": "봄맞이 카톡테마",
-        "thumbnail": "../images/themes/artist1/theme17.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme17.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -207,7 +207,7 @@
         "id": 118,
         "title": "Y2K 심플도트⭐︎ (IOS/AND)",
         "description": "깔끔하고 귀여운 도트",
-        "thumbnail": "../images/themes/artist1/theme18.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme18.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -219,7 +219,7 @@
         "id": 119,
         "title": "딸기초코 퐁당🍓 (IOS/AND)",
         "description": "드디어 돌아온 딸기초코",
-        "thumbnail": "../images/themes/artist1/theme19.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme19.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -231,7 +231,7 @@
         "id": 120,
         "title": "하트 엔드 클로버🍀 (IOS/AND)",
         "description": "당신의 일상에 사랑과 행운을",
-        "thumbnail": "../images/themes/artist1/theme20.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme20.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -243,7 +243,7 @@
         "id": 121,
         "title": "만두 레시피⁺⊹˚.🥟🥢 (IOS/AND)",
         "description": "만두 레시피 알려줄게!",
-        "thumbnail": "../images/themes/artist1/theme21.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme21.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -255,7 +255,7 @@
         "id": 122,
         "title": "맛있는 주먹밥🍙✩°｡⋆ (IOS/AND)",
         "description": "귀엽고 맛있는 주먹밥",
-        "thumbnail": "../images/themes/artist1/theme22.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme22.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -267,7 +267,7 @@
         "id": 123,
         "title": "퓨어천사 핑크🪽₊˚.ᐟ (IOS/AND)",
         "description": "퓨어천사 테마가 핑크버전",
-        "thumbnail": "../images/themes/artist1/theme23.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme23.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -279,7 +279,7 @@
         "id": 124,
         "title": "Y2K 개구리알 장난감✩°｡⋆ (IOS/AND)",
         "description": "추억의 개구리알",
-        "thumbnail": "../images/themes/artist1/theme24.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme24.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -291,7 +291,7 @@
         "id": 125,
         "title": "Y2K 만두 레시피 (그린) (IOS/AND)",
         "description": "초록버전 만두테마",
-        "thumbnail": "../images/themes/artist1/theme25.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme25.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -303,7 +303,7 @@
         "id": 126,
         "title": "Y2K ⭐︎락스타 라이프⭐︎ (IOS/AND)",
         "description": "락스타가 될테야",
-        "thumbnail": "../images/themes/artist1/theme26.webp",
+        "thumbnail": "./assets/images/themes/artist1/theme26.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -315,7 +315,7 @@
         "id": 127,
         "title": "iOS theme) Pink Blur",
         "description": "분홍색 테마",
-        "thumbnail": "../images/themes/artist2/theme1.webp",
+        "thumbnail": "./assets/images/themes/artist2/theme01.webp",
         "free": false,
         "platform": [
             "iOS"
@@ -326,7 +326,7 @@
         "id": 128,
         "title": "iOS theme) 3D blue",
         "description": "3D 블루 테마",
-        "thumbnail": "../images/themes/artist2/theme2.webp",
+        "thumbnail": "./assets/images/themes/artist2/theme02.webp",
         "free": false,
         "platform": [
             "iOS"
@@ -337,7 +337,7 @@
         "id": 129,
         "title": "iOS theme) Clover Omamori",
         "description": "3D 클로버 테마",
-        "thumbnail": "../images/themes/artist2/theme3.webp",
+        "thumbnail": "./assets/images/themes/artist2/theme03.webp",
         "free": false,
         "platform": [
             "iOS"
@@ -348,7 +348,7 @@
         "id": 130,
         "title": "iOS theme) 3D black",
         "description": "3D 블랙 테마",
-        "thumbnail": "../images/themes/artist2/theme4.webp",
+        "thumbnail": "./assets/images/themes/artist2/theme04.webp",
         "free": false,
         "platform": [
             "iOS"
@@ -359,7 +359,7 @@
         "id": 131,
         "title": "iOS theme) Melon soda",
         "description": "초록색 메론소다",
-        "thumbnail": "../images/themes/artist2/theme5.webp",
+        "thumbnail": "./assets/images/themes/artist2/theme05.webp",
         "free": false,
         "platform": [
             "iOS"
@@ -370,7 +370,7 @@
         "id": 132,
         "title": "iOS theme) Amulet Heart",
         "description": "3D 아뮬렛 하트",
-        "thumbnail": "../images/themes/artist2/theme6.webp",
+        "thumbnail": "./assets/images/themes/artist2/theme06.webp",
         "free": false,
         "platform": [
             "iOS"
@@ -381,7 +381,7 @@
         "id": 133,
         "title": "iOS theme) 3D Pudding",
         "description": "3D 푸딩 테마",
-        "thumbnail": "../images/themes/artist2/theme7.webp",
+        "thumbnail": "./assets/images/themes/artist2/theme07.webp",
         "free": false,
         "platform": [
             "iOS"
@@ -392,7 +392,7 @@
         "id": 134,
         "title": "iOS theme) 물고기다옹",
         "description": "귀여운 고양이",
-        "thumbnail": "../images/themes/artist2/theme8.webp",
+        "thumbnail": "./assets/images/themes/artist2/theme08.webp",
         "free": false,
         "platform": [
             "iOS"
@@ -403,7 +403,7 @@
         "id": 135,
         "title": "iOS theme) 쿨쿨판다",
         "description": "쿨쿨 잠자는 판다 테마",
-        "thumbnail": "../images/themes/artist2/theme9.webp",
+        "thumbnail": "./assets/images/themes/artist2/theme09.webp",
         "free": false,
         "platform": [
             "iOS"
@@ -414,7 +414,7 @@
         "id": 136,
         "title": "iOS theme) 후루룩 우동",
         "description": "맛있는 우동 테마",
-        "thumbnail": "../images/themes/artist2/theme10.webp",
+        "thumbnail": "./assets/images/themes/artist2/theme10.webp",
         "free": false,
         "platform": [
             "iOS"
@@ -425,7 +425,7 @@
         "id": 137,
         "title": "iOS theme) 코타츠냥",
         "description": "따끈따끈 코타츠와 고양이",
-        "thumbnail": "../images/themes/artist2/theme11.webp",
+        "thumbnail": "./assets/images/themes/artist2/theme11.webp",
         "free": false,
         "platform": [
             "iOS"
@@ -436,7 +436,7 @@
         "id": 138,
         "title": "iOS theme) 토마토마톡",
         "description": "따끈따끈 코타츠와 고양이",
-        "thumbnail": "../images/themes/artist2/theme12.webp",
+        "thumbnail": "./assets/images/themes/artist2/theme12.webp",
         "free": false,
         "platform": [
             "iOS"
@@ -447,7 +447,7 @@
         "id": 139,
         "title": "지상고 심플 테마 (iOS/AND)",
         "description": "가비지타임 웹툰 테마",
-        "thumbnail": "../images/themes/artist3/theme01.webp",
+        "thumbnail": "./assets/images/themes/artist3/theme01.webp",
         "free": true,
         "platform": [
             "iOS",
@@ -459,7 +459,7 @@
         "id": 140,
         "title": "지상고 보틀캡 테마 (AND)",
         "description": "가비지타임 웹툰 테마",
-        "thumbnail": "../images/themes/artist3/theme02.webp",
+        "thumbnail": "./assets/images/themes/artist3/theme02.webp",
         "free": true,
         "platform": [
             "Android"
@@ -470,7 +470,7 @@
         "id": 141,
         "title": "힘없는 눈사람테마 (AND/iOS)",
         "description": "힘없는 눈사람..",
-        "thumbnail": "../images/themes/artist3/theme03.webp",
+        "thumbnail": "./assets/images/themes/artist3/theme03.webp",
         "free": true,
         "platform": [
             "iOS",
@@ -482,7 +482,7 @@
         "id": 142,
         "title": "버섯이 되지 못한 포자 (ios + and)",
         "description": "버섯을 재배해보세요",
-        "thumbnail": "../images/themes/artist4/theme01.webp",
+        "thumbnail": "./assets/images/themes/artist4/theme01.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -494,7 +494,7 @@
         "id": 143,
         "title": "토마토 테마 (ios + and)",
         "description": "토마토를 재배해보세요",
-        "thumbnail": "../images/themes/artist4/theme02.webp",
+        "thumbnail": "./assets/images/themes/artist4/theme02.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -506,7 +506,7 @@
         "id": 144,
         "title": "금붕어 테마 (ios + and)",
         "description": "채팅방을 시원하게 만들어줄 금붕어",
-        "thumbnail": "../images/themes/artist4/theme03.webp",
+        "thumbnail": "./assets/images/themes/artist4/theme03.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -518,7 +518,7 @@
         "id": 145,
         "title": "검정 금붕어 테마 (ios + and)",
         "description": "버블버블 검정금붕어",
-        "thumbnail": "../images/themes/artist4/theme04.webp",
+        "thumbnail": "./assets/images/themes/artist4/theme04.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -530,7 +530,7 @@
         "id": 146,
         "title": "풋사과 테마 (ios + and)",
         "description": "상큼한 풋사과",
-        "thumbnail": "../images/themes/artist4/theme05.webp",
+        "thumbnail": "./assets/images/themes/artist4/theme05.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -542,7 +542,7 @@
         "id": 147,
         "title": "늘어나는 고양이 테마 (ios + and)",
         "description": "어디까지 늘어나는 거예요",
-        "thumbnail": "../images/themes/artist4/theme06.webp",
+        "thumbnail": "./assets/images/themes/artist4/theme06.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -554,7 +554,7 @@
         "id": 148,
         "title": "늘어나는 검정고양이 테마 (ios + and)",
         "description": "나는야 늘어나는 고양이",
-        "thumbnail": "../images/themes/artist4/theme07.webp",
+        "thumbnail": "./assets/images/themes/artist4/theme07.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -566,7 +566,7 @@
         "id": 149,
         "title": "메론빵 거북이 테마 (ios + and)",
         "description": "한 입 해도 될까요?",
-        "thumbnail": "../images/themes/artist4/theme08.webp",
+        "thumbnail": "./assets/images/themes/artist4/theme08.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -578,7 +578,7 @@
         "id": 150,
         "title": "롱롱 강아지들! ( ios/and )",
         "description": " 허리는 길고 다리는 짧은 귀여운 강아지들",
-        "thumbnail": "../images/themes/artist5/theme01.webp",
+        "thumbnail": "./assets/images/themes/artist5/theme01.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -590,7 +590,7 @@
         "id": 151,
         "title": "여름 조각들! ( ios/and )",
         "description": "여름의 반짝이는 순간들",
-        "thumbnail": "../images/themes/artist5/theme02.webp",
+        "thumbnail": "./assets/images/themes/artist5/theme02.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -602,7 +602,7 @@
         "id": 152,
         "title": "봄 조각들! ( ios/and )",
         "description": "산뜻한 봄의 순간들",
-        "thumbnail": "../images/themes/artist5/theme03.webp",
+        "thumbnail": "./assets/images/themes/artist5/theme03.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -614,7 +614,7 @@
         "id": 153,
         "title": "가을 조각들! ( ios/and )",
         "description": "소중한 가을의 순간들",
-        "thumbnail": "../images/themes/artist5/theme04.webp",
+        "thumbnail": "./assets/images/themes/artist5/theme04.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -626,7 +626,7 @@
         "id": 154,
         "title": "말랑 납작 복숭아! ( ios )",
         "description": "보들보들 부드럽고 달콤한 복숭아",
-        "thumbnail": "../images/themes/artist5/theme05.webp",
+        "thumbnail": "./assets/images/themes/artist5/theme05.webp",
         "free": false,
         "platform": [
             "iOS"
@@ -637,7 +637,7 @@
         "id": 155,
         "title": "럭키 토마코네! ( ios/and )",
         "description": "토마토가 되고 싶은 고양이 토마코",
-        "thumbnail": "../images/themes/artist5/theme06.webp",
+        "thumbnail": "./assets/images/themes/artist5/theme06.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -649,7 +649,7 @@
         "id": 156,
         "title": "방울토마토들! ( ios/and )",
         "description": "알록달록 방울토마토들이 통통 튀는 테마",
-        "thumbnail": "../images/themes/artist5/theme07.webp",
+        "thumbnail": "./assets/images/themes/artist5/theme07.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -661,7 +661,7 @@
         "id": 157,
         "title": "토마코의 할로윈! ( ios/and )",
         "description": "작고 무서운(?) 친구들과 함께",
-        "thumbnail": "../images/themes/artist5/theme08.webp",
+        "thumbnail": "./assets/images/themes/artist5/theme08.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -673,7 +673,7 @@
         "id": 158,
         "title": "DUNK SHOOT (ios/and)",
         "description": "농구컨셉 카카오톡 테마",
-        "thumbnail": "../images/themes/artist6/theme01.webp",
+        "thumbnail": "./assets/images/themes/artist6/theme01.webp",
         "free": true,
         "platform": [
             "iOS",
@@ -685,7 +685,7 @@
         "id": 159,
         "title": "아스타리온 (ios/and)",
         "description": "발더스 게이트3 팬메이드 테마",
-        "thumbnail": "../images/themes/artist6/theme02.webp",
+        "thumbnail": "./assets/images/themes/artist6/theme02.webp",
         "free": true,
         "platform": [
             "iOS",
@@ -697,7 +697,7 @@
         "id": 160,
         "title": "메리 크리스마스 (ios/and)",
         "description": "크리스마스 테마",
-        "thumbnail": "../images/themes/artist6/theme03.webp",
+        "thumbnail": "./assets/images/themes/artist6/theme03.webp",
         "free": true,
         "platform": [
             "iOS",
@@ -709,7 +709,7 @@
         "id": 161,
         "title": "너무 놀란 유령 (ios/and)",
         "description": "깜짝 놀란 유령 테마",
-        "thumbnail": "../images/themes/artist6/theme04.webp",
+        "thumbnail": "./assets/images/themes/artist6/theme04.webp",
         "free": true,
         "platform": [
             "iOS",
@@ -721,7 +721,7 @@
         "id": 162,
         "title": "반 고흐 블루 (ios/and)",
         "description": "반 고흐 테마",
-        "thumbnail": "../images/themes/artist6/theme05.webp",
+        "thumbnail": "./assets/images/themes/artist6/theme05.webp",
         "free": true,
         "platform": [
             "iOS",
@@ -733,7 +733,7 @@
         "id": 163,
         "title": "로드 오브 히어로즈 테마 (ios/and)",
         "description": "비공식 2차 테마",
-        "thumbnail": "../images/themes/artist6/theme06.webp",
+        "thumbnail": "./assets/images/themes/artist6/theme06.webp",
         "free": true,
         "platform": [
             "iOS",
@@ -745,7 +745,7 @@
         "id": 165,
         "title": "화산귀환 (ios/and)",
         "description": "화산귀환 2차 팬메이드 테마",
-        "thumbnail": "../images/themes/artist6/theme08.webp",
+        "thumbnail": "./assets/images/themes/artist6/theme08.webp",
         "free": true,
         "platform": [
             "iOS",
@@ -757,7 +757,7 @@
         "id": 166,
         "title": "Zelink (ios/and)",
         "description": "젤다의 전설 2차 팬메이드 테마",
-        "thumbnail": "../images/themes/artist6/theme09.webp",
+        "thumbnail": "./assets/images/themes/artist6/theme09.webp",
         "free": true,
         "platform": [
             "iOS",
@@ -769,7 +769,7 @@
         "id": 167,
         "title": "야생의 숨결 (ios/and)",
         "description": "야생의 숨결 2차 팬메이드 테마",
-        "thumbnail": "../images/themes/artist6/theme10.webp",
+        "thumbnail": "./assets/images/themes/artist6/theme10.webp",
         "free": true,
         "platform": [
             "iOS",
@@ -781,7 +781,7 @@
         "id": 168,
         "title": "WINDOW (ios/and)",
         "description": "WINDOW 테마",
-        "thumbnail": "../images/themes/artist6/theme11.webp",
+        "thumbnail": "./assets/images/themes/artist6/theme11.webp",
         "free": true,
         "platform": [
             "iOS",
@@ -793,7 +793,7 @@
         "id": 169,
         "title": "토마토 파티 (ios/and)",
         "description": "토마토와 함께 피크닉",
-        "thumbnail": "../images/themes/artist6/theme12.webp",
+        "thumbnail": "./assets/images/themes/artist6/theme12.webp",
         "free": true,
         "platform": [
             "iOS",
@@ -805,7 +805,7 @@
         "id": 170,
         "title": "Eclipse (ios/and)",
         "description": "달의 궤도",
-        "thumbnail": "../images/themes/artist6/theme13.webp",
+        "thumbnail": "./assets/images/themes/artist6/theme13.webp",
         "free": true,
         "platform": [
             "iOS",
@@ -817,7 +817,7 @@
         "id": 171,
         "title": "fomee-flower (iOS)",
         "description": "첫 테마입니다!",
-        "thumbnail": "../images/themes/artist7/theme01.webp",
+        "thumbnail": "./assets/images/themes/artist7/theme01.webp",
         "free": true,
         "platform": [
             "iOS"
@@ -828,7 +828,7 @@
         "id": 172,
         "title": "공룡멸종정식톡 (iOS/AND)",
         "description": "다이노소어~⭐️",
-        "thumbnail": "../images/themes/artist8/theme01.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme01.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -840,7 +840,7 @@
         "id": 173,
         "title": "🥦펑크락 브로콜리 (iOS/AND)",
         "description": "락을 즐기는 보리꼬리",
-        "thumbnail": "../images/themes/artist8/theme02.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme02.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -852,7 +852,7 @@
         "id": 174,
         "title": "🥞 따끈따끈 팬케이크톡 (iOS/AND)",
         "description": "말랑한 팬케이크에 부드러운 우유",
-        "thumbnail": "../images/themes/artist8/theme03.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme03.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -864,7 +864,7 @@
         "id": 175,
         "title": "🫘 호호 붕어빵톡 (iOS/AND)",
         "description": "뜨끈한 슈붕팥붕이 꿀꺽..",
-        "thumbnail": "../images/themes/artist8/theme04.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme04.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -876,7 +876,7 @@
         "id": 176,
         "title": "🍓 상큼딸기케이크톡 (iOS/AND)",
         "description": "폭신한 딸기 케이크",
-        "thumbnail": "../images/themes/artist8/theme05.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme05.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -888,7 +888,7 @@
         "id": 177,
         "title": "🫐 블루베리 요거트톡 (iOS/AND)",
         "description": "별모양 블루베리의 새콤함",
-        "thumbnail": "../images/themes/artist8/theme06.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme06.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -900,7 +900,7 @@
         "id": 178,
         "title": "🎄메리컵케이크마스톡 (iOS/AND)",
         "description": "크리스마스데코의 컵케이크",
-        "thumbnail": "../images/themes/artist8/theme07.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme07.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -912,7 +912,7 @@
         "id": 179,
         "title": "🍅동글동글 네잎토마토 (iOS/AND)",
         "description": "행운이 담긴 네잎토마토",
-        "thumbnail": "../images/themes/artist8/theme08.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme08.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -924,7 +924,7 @@
         "id": 180,
         "title": "🐟고소한 참치마요삼김 (iOS/AND)",
         "description": "고소한 마요네즈와 짭짤한 참치캔",
-        "thumbnail": "../images/themes/artist8/theme09.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme09.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -936,7 +936,7 @@
         "id": 181,
         "title": "🍁떼굴떼굴 동글도토리톡 (iOS/AND)",
         "description": "단풍이 나풀 나풀",
-        "thumbnail": "../images/themes/artist8/theme10.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme10.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -948,7 +948,7 @@
         "id": 182,
         "title": "톡톡별무화과톡 (iOS/AND)",
         "description": "여름맛 무화과 카톡테마",
-        "thumbnail": "../images/themes/artist8/theme11.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme11.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -960,7 +960,7 @@
         "id": 183,
         "title": "🍉 와삭수박주스톡 (iOS/AND)",
         "description": "비번을 눌러서 와삭와삭!",
-        "thumbnail": "../images/themes/artist8/theme12.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme12.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -972,7 +972,7 @@
         "id": 184,
         "title": "🐸메롱개구리톡 (iOS/AND)",
         "description": "개구리가 개굴개굴",
-        "thumbnail": "../images/themes/artist8/theme13.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme13.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -984,7 +984,7 @@
         "id": 185,
         "title": "🥟 앗뜨만두톡 (iOS/AND)",
         "description": "갓 쪄진 만두가 뜨끈뜨끈",
-        "thumbnail": "../images/themes/artist8/theme14.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme14.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -996,7 +996,7 @@
         "id": 186,
         "title": "🐝 붕붕벌 쫀득약과톡 (iOS/AND)",
         "description": "갓 쪄진 만두가 뜨끈뜨끈",
-        "thumbnail": "../images/themes/artist8/theme15.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme15.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -1008,7 +1008,7 @@
         "id": 187,
         "title": "🌴알로하휴가톡 (iOS/AND)",
         "description": "태닝 돌고래와 함께 즐거운 여름",
-        "thumbnail": "../images/themes/artist8/theme16.webp",
+        "thumbnail": "./assets/images/themes/artist8/theme16.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -1020,7 +1020,7 @@
         "id": 188,
         "title": "(IOS/AND) 어흥 흰 호랑이 🐯",
         "description": "둔둔한 흰 호랑이를 만나보세요",
-        "thumbnail": "../images/themes/artist9/theme01.webp",
+        "thumbnail": "./assets/images/themes/artist9/theme01.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -1032,7 +1032,7 @@
         "id": 189,
         "title": "(ios/and)시골 가나디의 하루",
         "description": "천방지축 강아지의 귀여운 일상",
-        "thumbnail": "../images/themes/artist9/theme02.webp",
+        "thumbnail": "./assets/images/themes/artist9/theme02.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -1044,7 +1044,7 @@
         "id": 190,
         "title": "(IOS/AND) 포실한 여우 🦊",
         "description": "포실한 여우를 만나보세요",
-        "thumbnail": "../images/themes/artist9/theme03.webp",
+        "thumbnail": "./assets/images/themes/artist9/theme03.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -1056,7 +1056,7 @@
         "id": 191,
         "title": "(IOS/AND) 깜깜고양이",
         "description": "어딘가 멍한 깜깜고양이",
-        "thumbnail": "../images/themes/artist9/theme04.webp",
+        "thumbnail": "./assets/images/themes/artist9/theme04.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -1068,7 +1068,7 @@
         "id": 192,
         "title": "(IOS/AND) 밀가루 토끼",
         "description": "밀가루처럼 부드러운 토끼",
-        "thumbnail": "../images/themes/artist9/theme05.webp",
+        "thumbnail": "./assets/images/themes/artist9/theme05.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -1080,7 +1080,7 @@
         "id": 193,
         "title": "(IOS/AND) 바다 돌고래",
         "description": "동글동글 귀여운 바다 돌고래",
-        "thumbnail": "../images/themes/artist9/theme06.webp",
+        "thumbnail": "./assets/images/themes/artist9/theme06.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -1092,7 +1092,7 @@
         "id": 194,
         "title": "(IOS/AND) 아기 공룡이고 싶은 곤뇽",
         "description": "어딘가 맹한 곤뇽",
-        "thumbnail": "../images/themes/artist9/theme07.webp",
+        "thumbnail": "./assets/images/themes/artist9/theme07.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -1104,7 +1104,7 @@
         "id": 195,
         "title": "(IOS/AND) 귤귤 고양이",
         "description": "말랑콩떡 귤귤 고양이",
-        "thumbnail": "../images/themes/artist9/theme08.webp",
+        "thumbnail": "./assets/images/themes/artist9/theme08.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -1116,7 +1116,7 @@
         "id": 196,
         "title": "(IOS/AND) 덤보문어",
         "description": "말랑 덤보문어를 만나보세요",
-        "thumbnail": "../images/themes/artist9/theme09.webp",
+        "thumbnail": "./assets/images/themes/artist9/theme09.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -1128,7 +1128,7 @@
         "id": 197,
         "title": "(IOS/AND) 우주 고양이",
         "description": "둥글둥글 부드러운 우주 고양이",
-        "thumbnail": "../images/themes/artist9/theme10.webp",
+        "thumbnail": "./assets/images/themes/artist9/theme10.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -1140,7 +1140,7 @@
         "id": 198,
         "title": "(IOS/AND) 꽥꽥오리",
         "description": "오동통 귀여운 오리",
-        "thumbnail": "../images/themes/artist9/theme11.webp",
+        "thumbnail": "./assets/images/themes/artist9/theme11.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -1152,7 +1152,7 @@
         "id": 199,
         "title": "(IOS/AND) 토마토 친구들!",
         "description": "다양한 색상의 토마토 친구들",
-        "thumbnail": "../images/themes/artist9/theme12.webp",
+        "thumbnail": "./assets/images/themes/artist9/theme12.webp",
         "free": false,
         "platform": [
             "iOS",
@@ -1164,7 +1164,7 @@
         "id": 200,
         "title": "(IOS/AND) 하찮지만 늑대",
         "description": "통통하고 동글한 하찮지만 늑대",
-        "thumbnail": "../images/themes/artist9/theme13.webp",
+        "thumbnail": "./assets/images/themes/artist9/theme13.webp",
         "free": false,
         "platform": [
             "iOS",

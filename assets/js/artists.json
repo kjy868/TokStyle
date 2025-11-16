@@ -3,13 +3,13 @@
         "id": 1,
         "name": "도보게",
         "bio": " 💌:doboge@naver.com",
-        "icon": "../images/artists/artist1.webp"
+        "icon": "./assets/images/artists/artist1.webp"
     },
     {
         "id": 2,
         "name": "mii",
         "bio": "ktheme / bg",
-        "icon": "../images/artists/artist2.webp"
+        "icon": "./assets/images/artists/artist2.webp"
     },
     {
         "id": 3,
@@ -21,36 +21,36 @@
         "id": 4,
         "name": "비야",
         "bio": "버섯 되지 못한 포자",
-        "icon": "../images/artists/artist4.webp"
+        "icon": "../assets/images/artists/artist4.webp"
     },
     {
         "id": 5,
         "name": "디도리",
         "bio": "당신의 일상에 단정한 귀여움을!",
-        "icon": "../images/artists/artist5.webp"
+        "icon": "../assets/images/artists/artist5.webp"
     },
     {
         "id": 6,
         "name": "단아",
         "bio": "문의는 designpot35@gmail.com",
-        "icon": "../images/artists/artist6.webp"
+        "icon": "../assets/images/artists/artist6.webp"
     },
     {
         "id": 7,
         "name": "폼이",
         "bio": "미술·디자인",
-        "icon": "../images/artists/artist7.webp"
+        "icon": "./assets/images/artists/artist7.webp"
     },
     {
         "id": 8,
         "name": "알맹",
         "bio": "맛있는 재료들을 그리고 만들어요!",
-        "icon": "../images/artists/artist8.webp"
+        "icon": "./assets/images/artists/artist8.webp"
     },
     {
         "id": 9,
         "name": "오브",
         "bio": "다양한 테마를 그려요! | ✉️ Contact | a_ubee@naver.com",
-        "icon": "../images/artists/artist9.webp"
+        "icon": "./assets/images/artists/artist9.webp"
     }
 ]
