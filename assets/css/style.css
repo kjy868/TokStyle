@@ -44,10 +44,26 @@
   font-weight: 600;
   font-size: 2.25rem;
   margin-bottom: 0.9375rem;
+  color: #1a1a1a;
+}
+@media (max-width: 1023px) {
+  .title {
+    font-size: 1.875rem;
+  }
+}
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
 }
 
 .mt {
   margin-top: 6.25rem;
+}
+@media (max-width: 767px) {
+  .mt {
+    margin-top: 5rem;
+  }
 }
 
 html,
@@ -980,6 +996,7 @@ body {
   padding-top: 5.625rem;
   line-height: 1.3;
   font-family: "Pretendard";
+  color: #2c2c2c;
 }
 
 a {
@@ -992,7 +1009,7 @@ button {
   cursor: pointer;
 }
 
-.my-pagination .swiper-pagination-bullet {
+.swiper-pagination-bullet {
   width: 16px;
   height: 16px;
   background-color: #aaa;
@@ -1001,10 +1018,14 @@ button {
   opacity: 0.5;
   transition: all 0.3s;
 }
-.my-pagination .swiper-pagination-bullet-active {
-  background-color: #1a1a1a;
-  opacity: 1;
-  transform: scale(1.3);
+@media (max-width: 1023px) {
+  .swiper-pagination-bullet-bullet {
+    width: 10px;
+    height: 10px;
+  }
+}
+.swiper-pagination-bullet-active {
+  background: #1a1a1a !important;
 }
 
 .btn-black {
@@ -1043,9 +1064,9 @@ button {
   border-radius: 1rem;
   overflow: hidden;
   transition: transform 0.3s ease;
+  width: 100%;
   max-width: 18.125rem;
-  height: 32.125rem;
-  border: 1px solid #dadada;
+  height: 31.25rem;
 }
 .card-theme__link {
   display: block;
@@ -1057,6 +1078,9 @@ button {
   position: relative;
   width: 100%;
   height: 100%;
+  border: 1px solid #dadada;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 .card-theme__img {
   width: 100%;
@@ -1081,6 +1105,7 @@ button {
 }
 .card-theme__text-wrap {
   position: absolute;
+  width: 90%;
   bottom: 1.25rem;
   left: 1.25rem;
   color: #fff;
@@ -1117,12 +1142,54 @@ button {
   font-size: 1rem;
   font-weight: 300;
 }
+@media (max-width: 1023px) {
+  .card-theme__link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+  }
+  .card-theme:hover .card-theme__img {
+    transform: none;
+  }
+  .card-theme:hover .card-theme__overlay {
+    opacity: 0;
+  }
+  .card-theme:hover .card-theme:__text-wrap {
+    display: flex;
+  }
+  .card-theme__overlay {
+    display: none;
+  }
+  .card-theme__text-wrap {
+    position: static;
+    background: #fff;
+    color: #2c2c2c;
+    padding: 0.75rem, 0.5rem;
+    display: block;
+  }
+  .card-theme__title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    max-width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .card-theme__link {
+    gap: 0.625rem;
+  }
+  .card-theme__title {
+    font-size: 1rem;
+  }
+}
 
 .container {
   max-width: 1600px;
   width: 100%;
   padding: 0 1.25rem;
   margin: 0 auto;
+  overflow: hidden;
 }
 @media (max-width: 1600px) {
   .container {
@@ -1221,9 +1288,23 @@ button {
   z-index: 0;
 }
 
+.popular__button-wrap,
+.category__button-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
 .popular__swiper,
 .category__swiper {
   width: 100%;
+  display: none;
+}
+.popular__swiper:first-child,
+.category__swiper:first-child {
+  display: block;
+}
+.popular__swiper .swiper-slide,
+.category__swiper .swiper-slide {
+  width: 18.125rem;
 }
 .popular__button-wrap,
 .category__button-wrap {
@@ -1237,4 +1318,158 @@ button {
 .category__swiper-week,
 .category__swiper-month {
   display: none;
+}
+
+.category__swiper {
+  overflow: visible !important;
+  position: relative;
+}
+.category__arrow {
+  position: absolute;
+  top: 30%;
+  width: 3rem;
+  height: 3rem;
+  z-index: 10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 0.3s all ease;
+}
+.category__arrow:hover {
+  transform: scale(1.1);
+}
+.category__arrow .disabled {
+  opacity: 0.2 !important;
+  cursor: not-allowed;
+}
+@media (max-width: 767px) {
+  .category__arrow {
+    display: none;
+  }
+}
+.category .swiper-button-next::after,
+.category .swiper-button-prev::after {
+  content: "";
+}
+.category__arrow--prev {
+  background-image: url(/assets/images/Btn_theme_prev.png);
+}
+.category__arrow--next {
+  background-image: url(/assets/images/Btn_theme_next.png);
+}
+
+.artist__wrap {
+  display: flex;
+  gap: 1.25rem;
+  width: 100%;
+  height: auto;
+}
+.artist__card {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 18.125rem;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 1rem;
+  position: relative;
+  border: 1px solid #dadada;
+}
+.artist__card p {
+  position: absolute;
+  right: 0.625rem;
+  bottom: 0.625rem;
+  border-radius: 3.125rem;
+  background-color: #ffb619;
+  padding: 0.4375rem 0.9375rem;
+  color: #2c2c2c;
+}
+
+.event__wrap {
+  display: flex;
+  gap: 1.25rem;
+}
+.event__list {
+  flex: 1;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 16/6;
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+  border-radius: 1rem;
+}
+.event__list a {
+  width: 100%;
+  height: 100%;
+  padding: 1.875rem;
+}
+.event__list01 {
+  background-image: url(../images/event01.webp);
+}
+.event__list02 {
+  background-image: url(../images/event02.webp);
+}
+.event__textwrap {
+  font-weight: 500;
+  width: 100%;
+  height: 100%;
+  word-break: keep-all;
+}
+.event__textwrap01 {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  text-align: end;
+  width: 100%;
+  height: 100%;
+}
+.event__textwrap02 {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+}
+.event__list-title {
+  font-size: 2rem;
+}
+.event__list-desc, .event__date {
+  font-size: 1.25rem;
+}
+@media (max-width: 1600px) {
+  .event__list-title {
+    font-size: 1.75rem;
+  }
+}
+@media (max-width: 1023px) {
+  .event__wrap {
+    flex-direction: column;
+  }
+  .event__list {
+    min-height: 160px;
+    aspect-ratio: 16/4;
+  }
+  .event__list-title {
+    font-size: 1.625rem;
+  }
+}
+@media (max-width: 767px) {
+  .event__list-title {
+    font-size: 1.5rem;
+  }
+  .event__list-desc, .event__date {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 480px) {
+  .event__list-title {
+    font-size: 1.25rem;
+  }
+  .event__list-desc, .event__date {
+    font-size: 1rem;
+  }
 }

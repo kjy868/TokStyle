@@ -20,80 +20,19 @@ let swiper01 = new Swiper(".key__swiper", {
 // popular swiper
 let swiper02 = new Swiper(".popular__swiper", {
     loopFillGroupWithBlank: true,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    breakpoints: {
-        1440: {
-            slidesPerView: 4.5,
-            spaceBetween: 20
-        },
-        1200: {
-            slidesPerView: 4,
-            spaceBetween: 20
-        },
-        1024: {
-            slidesPerView: 3.5,
-            spaceBetween: 20
-        },
-        768: {
-            slidesPerView: 3,
-            spaceBetween: 20
-        },
-        640: {
-            slidesPerView: 2.8,
-            spaceBetween: 20
-        },
-        480: {
-            slidesPerView: 1.8,
-            spaceBetween: 20
-        },
-        360: {
-            slidesPerView: 1.3,
-            spaceBetween: 20
-        }
+    loop: true,
+    slidesPerView: 'auto',
+    spaceBetween: 20
+});
+
+// category swiper
+let swiper03 = new Swiper(".category__swiper", {
+    loopFillGroupWithBlank: true,
+    loop: false,
+    slidesPerView: 'auto',
+    spaceBetween: 20,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     }
 });
-// const popularSection = document.querySelector(".popular");
-
-// function recommendSwiper(popularSection) {
-//     let swiper02 = new Swiper(args.querySelector(".popular__swiper"), {
-//         slidesPerView: 5,
-//         spaceBetween: 20,
-//         pagination: {
-//             el: args.querySelector(".swiper-pagination"),
-//             clickable: true,
-//         },
-//         breakpoints: {
-//             1440: {
-//                 slidesPerView: 4,
-//                 spaceBetween: 30
-//             },
-//             1200: {
-//                 slidesPerView: 3.5,
-//                 spaceBetween: 20
-//             },
-//             1024: {
-//                 slidesPerView: 3,
-//                 spaceBetween: 20
-//             },
-//             768: {
-//                 slidesPerView: 2.5,
-//                 spaceBetween: 20
-//             },
-//             640: {
-//                 slidesPerView: 2,
-//                 spaceBetween: 20
-//             },
-//             480: {
-//                 slidesPerView: 1.5,
-//                 spaceBetween: 20
-//             },
-//             360: {
-//                 slidesPerView: 1,
-//                 spaceBetween: 20
-//             }
-//         }
-//     }); return swiper;
-// }

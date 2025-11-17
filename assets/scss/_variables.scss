@@ -1,4 +1,4 @@
-@use 'function' as f;
+@use './utils' as u;
 // 색상, 폰트, 간격, z-index 등
 /* pretendard */
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
@@ -66,11 +66,24 @@ $Color_ExtraL_Primary: #ffeca2;
 .title {
     font-family: 'Paperozi';
     font-weight: 600;
-    font-size: f.rem(36);
-    margin-bottom: f.rem(15);
+    font-size: u.rem(36);
+    margin-bottom: u.rem(15);
+    color: $Color_Head_Black;
+
+    @include u.responsive(lg) {
+        font-size: u.rem(30);
+    }
+
+    @include u.responsive(sm) {
+        font-size: u.rem(24);
+    }
 }
 
 // spacing
 .mt {
-    margin-top: f.rem(100);
+    margin-top: u.rem(100);
+
+    @include u.responsive(md) {
+        margin-top: u.rem(80);
+    }
 }
