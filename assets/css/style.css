@@ -1010,19 +1010,13 @@ button {
 }
 
 .swiper-pagination-bullet {
-  width: 16px;
-  height: 16px;
-  background-color: #aaa;
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #fff;
   margin: 0 8px;
   border-radius: 50%;
   opacity: 0.5;
   transition: all 0.3s;
-}
-@media (max-width: 1023px) {
-  .swiper-pagination-bullet-bullet {
-    width: 10px;
-    height: 10px;
-  }
 }
 .swiper-pagination-bullet-active {
   background: #1a1a1a !important;
