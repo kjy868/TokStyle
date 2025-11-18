@@ -21,8 +21,19 @@ $(document).ready(function () {
 
     function createThemeCard(theme, artist) {
 
-        const artistIcon = artist?.icon ?? './assets/images/artists/artist_blank.webp';
-        const artistName = artist?.name ?? '미상';
+        const artistIcon =
+            (artist &&
+                typeof artist.icon === 'string' &&
+                artist.icon.trim() !== '')
+                ? artist.icon
+                : './assets/images/artists/artist_blank.webp';
+
+        const artistName =
+            (artist &&
+                typeof artist.name === 'string' &&
+                artist.name.trim() !== '')
+                ? artist.name
+                : '미상';
 
         return `
             <div class="swiper-slide">
@@ -50,6 +61,30 @@ $(document).ready(function () {
         `;
     }
 
+    function createArtistCard(artist) {
+
+        const icon =
+            (artist &&
+                typeof artist.icon === 'string' &&
+                artist.icon.trim() !== '')
+                ? artist.icon
+                : './assets/images/artists/artist_blank.webp';
+
+        const name =
+            (artist &&
+                typeof artist.name === 'string' &&
+                artist.name.trim() !== '')
+                ? artist.name
+                : '이름 없음';
+
+        return `
+        <a href="#" class="artist__card" style="background-image:url('${icon}');">
+            <p>${name}</p>
+        </a>
+        `;
+    }
+
+
     function renderByIds(wrapper, idArray, artists, themes) {
         $(wrapper).empty();
 
@@ -74,23 +109,11 @@ $(document).ready(function () {
         });
     }
 
-    function createArtistCard(artist) {
-        const icon = artist.icon && artist.icon.trim() !== ""
-            ? artist.icon
-            : './assets/images/artists/artist_blank.webp';
-
-        return `
-        <a href="#" class="artist__card" style="background-image:url('${artist.icon}');">
-            <p>${artist.name}</p>
-        </a>
-    `;
-    }
 
     function renderArtists(wrapper, artists) {
         $(wrapper).empty();
 
         let showCount = 5;
-
         const winW = window.innerWidth;
 
         if (winW <= 600) {
@@ -110,7 +133,6 @@ $(document).ready(function () {
         });
     }
 
-
     loadJSON().done(function (artistsData, themesData) {
 
         const artists = artistsData[0];
@@ -120,15 +142,9 @@ $(document).ready(function () {
         const WEEKLY_IDS = [143, 151, 157, 165, 149];
         const MONTHLY_IDS = [147, 154, 180, 190, 200];
 
-        const $daily = $('#popular-daily');
-        const $weekly = $('#popular-weekly');
-        const $monthly = $('#popular-monthly');
-
-        const $ARTIST_IDS = [];
-
-        renderByIds($daily, DAILY_IDS, artists, themes);
-        renderByIds($weekly, WEEKLY_IDS, artists, themes);
-        renderByIds($monthly, MONTHLY_IDS, artists, themes);
+        renderByIds('#popular-daily', DAILY_IDS, artists, themes);
+        renderByIds('#popular-weekly', WEEKLY_IDS, artists, themes);
+        renderByIds('#popular-monthly', MONTHLY_IDS, artists, themes);
 
         renderArtists('#artist-list', artists);
         $(window).resize(function () {
@@ -136,10 +152,11 @@ $(document).ready(function () {
         });
 
 
+
         const COLOR_KEYWORDS = ['블루', '핑크', '초록', '블랙', '분홍', '레드', '빨강', '연두', 'blue', 'pink', '그린', '흰'];
         const MOOD_KEYWORDS = ['따뜻', '시원', '포근', '심플', '말랑', '포실', '부드러운', '하찮', '귀여운', '고양이', '공룡'];
         const SEASON_KEYWORDS = ['봄', '여름', '가을', '겨울', '눈', '알로하', '호호', '도토리', '수박', '무화과'];
-        const EVENT_KEYWORDS = ['크리스마스', '할로윈', '생일', '발렌타인', '졸업', '신년', '메리', '눈'];
+        const EVENT_KEYWORDS = ['크리스마스', '할로윈', '생일', '발렌타인', '졸업', '신년', '메리', '눈', '휴가', '유령',];
 
         renderThemesByFilter(
             '#category-color',

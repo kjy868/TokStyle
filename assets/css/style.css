@@ -1207,10 +1207,6 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.key .swiper-button-next::after,
-.key .swiper-button-prev::after {
-  content: "";
-}
 .key__arrow--prev {
   left: calc(50% - 50rem);
   background-image: url(/assets/images/Btn_Banner_Prev.png);
@@ -1220,20 +1216,25 @@ button {
   background-image: url(/assets/images/Btn_Banner_Next.png);
 }
 @media (max-width: 1600px) {
-  .key .key__arrow--prev {
+  .key__arrow--prev {
     left: 1.25rem;
   }
-  .key .key__arrow--next {
+  .key__arrow--next {
     right: 1.25rem;
   }
 }
 @media (max-width: 1023px) {
-  .key .key__arrow {
+  .key__arrow {
     display: none;
   }
 }
+.key .swiper-button-next::after,
+.key .swiper-button-prev::after {
+  content: "";
+}
 .key__container {
   position: relative;
+  z-index: 0;
 }
 .key__card {
   background: #ffd95b;
@@ -1252,8 +1253,15 @@ button {
   z-index: 1;
 }
 .key__text-wrap {
+  position: relative;
   padding: 10.625rem 2.5rem;
   z-index: 2;
+}
+@media (max-width: 1023px) {
+  .key__text-wrap {
+    padding: 7.5rem 0 31.25rem;
+    text-align: center;
+  }
 }
 .key__title {
   font-size: 3.125rem;
@@ -1271,15 +1279,40 @@ button {
 .key__img {
   position: absolute;
   bottom: 0;
-  right: 1.25rem;
-  width: 900px;
-  height: 100%;
+  right: 6.25rem;
+  width: 50rem;
+  height: auto;
+  z-index: 0;
+  transition: 0.3 all ease;
 }
 .key__img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   z-index: 0;
+  display: block;
+}
+@media (max-width: 1600px) {
+  .key__img {
+    right: 1.25rem;
+    width: 46.25rem;
+  }
+}
+@media (max-width: 1240px) {
+  .key__img {
+    mask-image: linear-gradient(to right, transparent 0%, black 20%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 20%);
+  }
+}
+@media (max-width: 1023px) {
+  .key__img {
+    width: 46.25rem;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
 }
 
 .popular__button-wrap,
@@ -1392,7 +1425,7 @@ button {
   aspect-ratio: 16/6;
   width: 100%;
   height: 100%;
-  min-height: 200px;
+  min-height: 12.5rem;
   border-radius: 1rem;
 }
 .event__list a {
@@ -1444,7 +1477,7 @@ button {
     flex-direction: column;
   }
   .event__list {
-    min-height: 160px;
+    min-height: 10rem;
     aspect-ratio: 16/4;
   }
   .event__list-title {
@@ -1452,6 +1485,9 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .event__list a {
+    padding: 1.25rem;
+  }
   .event__list-title {
     font-size: 1.5rem;
   }
@@ -1460,6 +1496,9 @@ button {
   }
 }
 @media (max-width: 480px) {
+  .event__list a {
+    padding: 0.9375rem;
+  }
   .event__list-title {
     font-size: 1.25rem;
   }

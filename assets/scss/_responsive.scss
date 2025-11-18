@@ -1,10 +1,17 @@
-$breakpoint-xl: 1600px;
+$breakpoint-xxl: 1600px;
+$breakpoint-xl: 1240px;
 $breakpoint-lg: 1023px;
 $breakpoint-md: 767px;
 $breakpoint-sm: 480px;
 
 @mixin responsive($device) {
-    @if $device ==xl {
+    @if $device ==xxl {
+        @media (max-width: $breakpoint-xxl) {
+            @content;
+        }
+    }
+
+    @else if $device ==xl {
         @media (max-width: $breakpoint-xl) {
             @content;
         }
