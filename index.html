@@ -14,243 +14,318 @@
 
 <body>
 
-    <section class="key">
-        <!-- Swiper -->
-        <div class="swiper mySwiper key__swiper">
-            <div class="swiper-wrapper key__swiper-wrapper">
-                <div class="swiper-slide key__swiper-slide01">
-                    <div class="key__card">
-                        <div class="container key__container">
-                            <div class="key__text-wrap paperozi">
-                                <h2 class="key__title">디도리 작가의 신작!</h2>
-                                <p class="key__desc">롱롱 강아지들! (ios/and)</p>
-                                <a href="#" class="key__button btn-black">
-                                    <i class="fa-solid fa-download"></i> 다운로드 바로가기
-                                </a>
-                            </div>
-                            <div class="key__img">
-                                <img src="./assets/images/key-img01-PC.webp" alt="키비주얼 이미지01">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="key__card">
-                        <div class="container key__container">
-                            <div class="key__text-wrap paperozi">
-                                <h2 class="key__title">디도리 작가의 신작!</h2>
-                                <p class="key__desc">롱롱 강아지들! (ios/and)</p>
-                                <a href="#" class="key__button btn-black">
-                                    <i class="fa-solid fa-download"></i> 다운로드 바로가기
-                                </a>
-                            </div>
-                            <div class="key__img">
-                                <img src="./assets/images/key-img01-PC.webp" alt="키비주얼 이미지01">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="key__card">
-                        <div class="container key__container">
-                            <div class="key__text-wrap paperozi">
-                                <h2 class="key__title">디도리 작가의 신작!</h2>
-                                <p class="key__desc">롱롱 강아지들! (ios/and)</p>
-                                <a href="#" class="key__button btn-black">
-                                    <i class="fa-solid fa-download"></i> 다운로드 바로가기
-                                </a>
-                            </div>
-                            <div class="key__img">
-                                <img src="./assets/images/key-img01-PC.webp" alt="키비주얼 이미지01">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="key__card">
-                        <div class="container key__container">
-                            <div class="key__text-wrap paperozi">
-                                <h2 class="key__title">디도리 작가의 신작!</h2>
-                                <p class="key__desc">롱롱 강아지들! (ios/and)</p>
-                                <a href="#" class="key__button btn-black">
-                                    <i class="fa-solid fa-download"></i> 다운로드 바로가기
-                                </a>
-                            </div>
-                            <div class="key__img">
-                                <img src="./assets/images/key-img01-PC.webp" alt="키비주얼 이미지01">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="key__card">
-                        <div class="container key__container">
-                            <div class="key__text-wrap paperozi">
-                                <h2 class="key__title">디도리 작가의 신작!</h2>
-                                <p class="key__desc">롱롱 강아지들! (ios/and)</p>
-                                <a href="#" class="key__button btn-black">
-                                    <i class="fa-solid fa-download"></i> 다운로드 바로가기
-                                </a>
-                            </div>
-                            <div class="key__img">
-                                <img src="./assets/images/key-img01-PC.webp" alt="키비주얼 이미지01">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-button-next key__arrow key__arrow--next"></div>
-            <div class="swiper-button-prev key__arrow key__arrow--prev"></div>
-            <div class="swiper-pagination"></div>
+    <header class="header">
+        <div class="container header__container">
+            <h1 class="header__logo">
+                <a href="#">
+                    <img src="./assets/images/header__Logo.png" alt="톡스타일">
+                </a>
+            </h1>
         </div>
-    </section>
+    </header>
 
-    <section class="popular mt" id="popular">
-        <div class="container popular__container">
-            <div class="popular__title-wrap">
-                <h2 class="title">인기테마 TOP5</h2>
-                <div class="popular__button-wrap">
-                    <a href="#popular" class="btn-theme btn-theme--active">오늘의 테마</a>
-                    <a href="#popular" class="btn-theme">주간</a>
-                    <a href="#popular" class="btn-theme">월간</a>
-                </div>
-            </div>
+    <main>
+        <section class="key">
             <!-- Swiper -->
-            <div class="popular__swiper-wrap">
-
-                <!-- 일간 -->
-                <div class="swiper mySwiper popular__swiper">
-                    <div class="swiper-wrapper popular__swiper-wrapper" id="popular-daily">
+            <div class="swiper mySwiper key__swiper">
+                <div class="swiper-wrapper key__swiper-wrapper">
+                    <div class="swiper-slide key__swiper-slide01">
+                        <div class="key__card">
+                            <div class="container key__container">
+                                <div class="key__text-wrap paperozi">
+                                    <h2 class="key__title">디도리 작가의 신작!</h2>
+                                    <p class="key__desc">롱롱 강아지들! (ios/and)</p>
+                                    <a href="#" class="key__button btn-black">
+                                        <i class="fa-solid fa-download"></i> 다운로드 바로가기
+                                    </a>
+                                </div>
+                                <div class="key__img">
+                                    <picture>
+                                        <source srcset="./assets/images/key-img01-phone.webp"
+                                            media="(max-width: 1023px)">
+                                        <img src="./assets/images/key-img01-PC.webp" alt="키비주얼 이미지01">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- <div class="swiper-pagination"></div> -->
+                    <div class="swiper-slide key__swiper-slide02">
+                        <div class="key__card key__card02">
+                            <div class="container key__container">
+                                <div class="key__text-wrap paperozi">
+                                    <h2 class="key__title">[DUNK SHOOT]</h2>
+                                    <p class="key__desc">테마를 구매하면 배경화면이?</p>
+                                    <a href="#" class="key__button btn-black">
+                                        <i class="fa-solid fa-download"></i> 다운로드 바로가기
+                                    </a>
+                                </div>
+                                <div class="key__img key__img02">
+                                    <picture>
+                                        <source srcset="./assets/images/key-img02-phone.webp"
+                                            media="(max-width: 1023px)">
+                                        <img src="./assets/images/key-img02-PC.webp" alt="키비주얼 이미지01">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide key__swiper-slide03">
+                        <div class="key__card03">
+                            <div class="container key__container">
+                                <div class="key__text-wrap paperozi">
+                                    <h2 class="key__title">배경화면 배포 이벤트</h2>
+                                    <p class="key__desc">귀여운 배경화면을 무료로 받아보세요</p>
+                                    <a href="#" class="key__button btn-black">
+                                        <i class="fa-solid fa-download"></i> 다운로드 바로가기
+                                    </a>
+                                </div>
+                                <div class="key__img key__img03">
+                                    <picture>
+                                        <source srcset="./assets/images/key-img03-PC.webp" media="(max-width: 1023px)">
+                                        <img src="./assets/images/key-img03-PC.webp" alt="키비주얼 이미지03">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide key__swiper-slide04">
+                        <div class="key__card04">
+                            <div class="container key__container">
+                                <div class="key__text-wrap paperozi">
+                                    <h2 class="key__title">[메리 크리스마스]</h2>
+                                    <p class="key__desc">크리스마스 기념 배경화면 배포</p>
+                                    <a href="#" class="key__button btn-black">
+                                        <i class="fa-solid fa-download"></i> 다운로드 바로가기
+                                    </a>
+                                </div>
+                                <div class="key__img key__img04">
+                                    <picture>
+                                        <source srcset="./assets/images/key-img04-PC.webp" media="(max-width: 1023px)">
+                                        <img src="./assets/images/key-img04-PC.webp" alt="키비주얼 이미지04">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide key__swiper-slide05">
+                        <div class="key__card05">
+                            <div class="container key__container">
+                                <div class="key__text-wrap paperozi">
+                                    <h2 class="key__title">디도리 작가의 신작!</h2>
+                                    <p class="key__desc">롱롱 강아지들! (ios/and)</p>
+                                    <a href="#" class="key__button btn-black">
+                                        <i class="fa-solid fa-download"></i> 다운로드 바로가기
+                                    </a>
+                                </div>
+                                <div class="key__img">
+                                    <picture>
+                                        <source srcset="./assets/images/key-img01-phone.webp"
+                                            media="(max-width: 1023px)">
+                                        <img src="./assets/images/key-img01-PC.webp" alt="키비주얼 이미지01">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+                <div class="swiper-button-next key__arrow key__arrow--next"></div>
+                <div class="swiper-button-prev key__arrow key__arrow--prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
 
-                <!-- 주간 -->
-                <div class="swiper mySwiper popular__swiper popular__swiper-week">
-                    <div class="swiper-wrapper popular__swiper-wrapper" id="popular-weekly">
+        <section class="popular mt" id="popular">
+            <div class="container popular__container">
+                <div class="popular__title-wrap">
+                    <h2 class="title">인기테마 TOP5</h2>
+                    <div class="popular__button-wrap">
+                        <a href="#popular" class="btn-theme btn-theme--active">오늘의 테마</a>
+                        <a href="#popular" class="btn-theme">주간</a>
+                        <a href="#popular" class="btn-theme">월간</a>
                     </div>
-                    <!-- <div class="swiper-pagination"></div> -->
                 </div>
+                <!-- Swiper -->
+                <div class="popular__swiper-wrap">
 
-                <!-- 월간 -->
-                <div class="swiper mySwiper popular__swiper popular__swiper-month">
-                    <div class="swiper-wrapper popular__swiper-wrapper" id="popular-monthly">
+                    <!-- 일간 -->
+                    <div class="swiper mySwiper popular__swiper">
+                        <div class="swiper-wrapper popular__swiper-wrapper" id="popular-daily">
+                        </div>
+                        <!-- <div class="swiper-pagination"></div> -->
                     </div>
-                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <!-- 주간 -->
+                    <div class="swiper mySwiper popular__swiper popular__swiper-week">
+                        <div class="swiper-wrapper popular__swiper-wrapper" id="popular-weekly">
+                        </div>
+                        <!-- <div class="swiper-pagination"></div> -->
+                    </div>
+
+                    <!-- 월간 -->
+                    <div class="swiper mySwiper popular__swiper popular__swiper-month">
+                        <div class="swiper-wrapper popular__swiper-wrapper" id="popular-monthly">
+                        </div>
+                        <!-- <div class="swiper-pagination"></div> -->
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="category mt" id="category">
-        <div class="container category__container">
-            <div class="category__title-wrap">
-                <h2 class="title category__title">
-                    <a href="#category">
-                        카테고리별 테마
+        <section class="category mt" id="category">
+            <div class="container category__container">
+                <div class="category__title-wrap">
+                    <h2 class="title category__title">
+                        <a href="#category">
+                            카테고리별 테마
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </h2>
+                    <div class="category__button-wrap">
+                        <a href="#category" class="btn-theme btn-theme--active">색상별</a>
+                        <a href="#category" class="btn-theme">분위기별</a>
+                        <a href="#category" class="btn-theme">계절별</a>
+                        <a href="#category" class="btn-theme">기념일별</a>
+                    </div>
+                </div>
+                <!-- Swiper -->
+                <div class="category__swiper-wrap">
+                    <!-- 색상별 -->
+                    <div class="swiper mySwiper category__swiper">
+                        <div class="swiper-wrapper category__swiper-wrapper" id="category-color">
+                        </div>
+                        <div class="swiper-button-next category__arrow category__arrow--next"></div>
+                        <div class="swiper-button-prev category__arrow category__arrow--prev"></div>
+                    </div>
+
+                    <!-- 분위기별 -->
+                    <div class="swiper mySwiper category__swiper">
+                        <div class="swiper-wrapper category__swiper-wrapper" id="category-mood">
+                        </div>
+                        <div class="swiper-button-next category__arrow category__arrow--next"></div>
+                        <div class="swiper-button-prev category__arrow category__arrow--prev"></div>
+                    </div>
+
+                    <!-- 계절별 -->
+                    <div class="swiper mySwiper category__swiper">
+                        <div class="swiper-wrapper category__swiper-wrapper" id="category-season">
+                        </div>
+                        <div class="swiper-button-next category__arrow category__arrow--next"></div>
+                        <div class="swiper-button-prev category__arrow category__arrow--prev"></div>
+                    </div>
+
+                    <div class="swiper mySwiper category__swiper">
+                        <!-- 기념일별 -->
+                        <div class="swiper-wrapper category__swiper-wrapper" id="category-event">
+                        </div>
+                        <div class="swiper-button-next category__arrow category__arrow--next"></div>
+                        <div class="swiper-button-prev category__arrow category__arrow--prev"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="artist mt" id="artist">
+            <div class="container artist__container">
+                <h2 class="title artist__title">
+                    <a href="#artist">
+                        이달의 작가
                         <i class="fa-solid fa-angle-right"></i>
                     </a>
                 </h2>
-                <div class="category__button-wrap">
-                    <a href="#category" class="btn-theme btn-theme--active">색상별</a>
-                    <a href="#category" class="btn-theme">분위기별</a>
-                    <a href="#category" class="btn-theme">계절별</a>
-                    <a href="#category" class="btn-theme">기념일별</a>
+
+                <div class="artist__wrap" id="artist-list">
                 </div>
             </div>
-            <!-- Swiper -->
-            <div class="category__swiper-wrap">
-                <!-- 색상별 -->
-                <div class="swiper mySwiper category__swiper">
-                    <div class="swiper-wrapper category__swiper-wrapper" id="category-color">
-                    </div>
-                    <div class="swiper-button-next category__arrow category__arrow--next"></div>
-                    <div class="swiper-button-prev category__arrow category__arrow--prev"></div>
-                </div>
+        </section>
 
-                <!-- 분위기별 -->
-                <div class="swiper mySwiper category__swiper">
-                    <div class="swiper-wrapper category__swiper-wrapper" id="category-mood">
-                    </div>
-                    <div class="swiper-button-next category__arrow category__arrow--next"></div>
-                    <div class="swiper-button-prev category__arrow category__arrow--prev"></div>
-                </div>
-
-                <!-- 계절별 -->
-                <div class="swiper mySwiper category__swiper">
-                    <div class="swiper-wrapper category__swiper-wrapper" id="category-season">
-                    </div>
-                    <div class="swiper-button-next category__arrow category__arrow--next"></div>
-                    <div class="swiper-button-prev category__arrow category__arrow--prev"></div>
-                </div>
-
-                <div class="swiper mySwiper category__swiper">
-                    <!-- 기념일별 -->
-                    <div class="swiper-wrapper category__swiper-wrapper" id="category-event">
-                    </div>
-                    <div class="swiper-button-next category__arrow category__arrow--next"></div>
-                    <div class="swiper-button-prev category__arrow category__arrow--prev"></div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="artist mt" id="artist">
-        <div class="container artist__container">
-            <h2 class="title artist__title">
-                <a href="#artist">
-                    이달의 작가
-                    <i class="fa-solid fa-angle-right"></i>
-                </a>
-            </h2>
-
-            <div class="artist__wrap" id="artist-list">
-            </div>
-        </div>
-    </section>
-
-    <section class="event mt" id="event">
-        <div class="container event__container">
-            <h2 class="title event__title">
-                <a href="#event">
-                    이벤트
-                    <i class="fa-solid fa-angle-right"></i>
-                </a>
-            </h2>
-
-            <div class="event__wrap">
-                <div class="event__list event__list01">
+        <section class="event mt" id="event">
+            <div class="container event__container">
+                <h2 class="title event__title">
                     <a href="#event">
-                        <div class="event__textwrap event__textwrap01 paperozi">
-                            <p class="event__date">
-                                09.01~10.31
-                            </p>
-                            <div class="event__titlewrap">
-                                <p class="event__list-desc">디도리 작가의</p>
-                                <h3 class="event__list-title">마스킹 테이프 출시!</h3>
-                            </div>
-                        </div>
+                        이벤트
+                        <i class="fa-solid fa-angle-right"></i>
                     </a>
-                </div>
-                <div class="event__list event__list02">
-                    <a href="#">
-                        <div class="event__textwrap event__textwrap02 paperozi">
-                            <div class="event__titlewrap">
-                                <p class="event__list-desc">단아 작가의</p>
-                                <h3 class="event__list-title">배경화면 이벤트</h3>
+                </h2>
+
+                <div class="event__wrap">
+                    <div class="event__list event__list01">
+                        <a href="#event">
+                            <div class="event__textwrap event__textwrap01 paperozi">
+                                <p class="event__date">
+                                    09.01~10.31
+                                </p>
+                                <div class="event__titlewrap">
+                                    <p class="event__list-desc">디도리 작가의</p>
+                                    <h3 class="event__list-title">마스킹 테이프 출시!</h3>
+                                </div>
                             </div>
-                            <p class="event__date">
-                                09.01~10.31
-                            </p>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+                    <div class="event__list event__list02">
+                        <a href="#">
+                            <div class="event__textwrap event__textwrap02 paperozi">
+                                <div class="event__titlewrap">
+                                    <p class="event__list-desc">단아 작가의</p>
+                                    <h3 class="event__list-title">배경화면 이벤트</h3>
+                                </div>
+                                <p class="event__date">
+                                    09.01~10.31
+                                </p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="container footer__container">
+            <div class="footer__left">
+                <h1 class="footer__logo">
+                    <a href="#footer">
+                        <img src="./assets/images/footer__logo.png" alt="톡스타일">
+                    </a>
+                </h1>
+                <p class="footer__copyright">
+                    © 2025 Project Tokstyle Corp.<br>
+                    모든 테마의 저작권은 모두 각 테마의 저작권자에게 있습니다.<br>
+                    테마 사용에 대한 라이센스 문의는 저작권자에게 문의해주세요.
+                </p>
+                <ul class="footer__policy">
+                    <li><a href="#footer">이용약관</a></li>
+                    <li><a href="#footer">개인정보처리방침</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__right">
+                <ul class="footer__menu">
+                    <li><a href="#footer">테마 제보하기</a></li>
+                    <li><a href="#footer">자주 묻는 질문</a></li>
+                </ul>
+
+                <ul class="footer__sns">
+                    <li>
+                        <a href="#footer">
+                            <img src="./assets/images/footerSNS_X.png" alt="엑스">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#footer">
+                            <img src="./assets/images/footerSNS_instagram.png" alt="인스타그램">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#footer">
+                            <img src="./assets/images/footerSNS_facebook.png" alt="페이스북">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </section>
-
-
+    </footer>
 
 
 

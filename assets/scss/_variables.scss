@@ -67,7 +67,7 @@ $Color_ExtraL_Primary: #ffeca2;
     font-family: 'Paperozi';
     font-weight: 600;
     font-size: u.rem(36);
-    margin-bottom: u.rem(15);
+    margin-bottom: u.rem(10);
     color: $Color_Head_Black;
 
     @include u.responsive(lg) {
@@ -75,7 +75,7 @@ $Color_ExtraL_Primary: #ffeca2;
     }
 
     @include u.responsive(sm) {
-        font-size: u.rem(24);
+        font-size: u.rem(26);
     }
 }
 

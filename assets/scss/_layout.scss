@@ -1,6 +1,16 @@
+@use './variables' as v;
 @use './utils' as u;
 
 // header, footer, container
+
+.header {
+    width: 100%;
+    height: u.rem(90);
+    background-color: v.$Color_White;
+    @include u.position(fixed, 0, 0, none);
+    box-shadow: 0 u.rem(3) u.rem(10) rgba(0, 0, 0, 0.05);
+    z-index: 10;
+}
 
 .container {
     max-width: 1600px;
@@ -11,5 +21,60 @@
 
     @include u.responsive(xxl) {
         max-width: 100%;
+    }
+}
+
+.footer {
+    width: 100%;
+    background-color: v.$Color_Foot_Black;
+    padding: u.rem(110) 0;
+    margin-top: u.rem(160);
+    color: v.$Color_Silver;
+
+    &__container {
+        @include u.flex(flex, space-between, center);
+        font-weight: 400;
+        font-size: u.rem(14);
+        gap: u.rem(10);
+    }
+
+    &__left {
+        @include u.flex($flexDirection: column);
+        gap: u.rem(24);
+    }
+
+    &__policy {
+        @include u.flex();
+        gap: u.rem(10);
+
+        &:first-child {
+            border-right: 1px solid v.$Color_Silver;
+        }
+    }
+
+    &__right {
+        @include u.flex(flex, baseline, flex-end, column);
+        gap: u.rem(20);
+    }
+
+    &__menu {
+        @include u.flex(flex, baseline, flex-end, column);
+    }
+
+    &__sns {
+        @include u.flex();
+        gap: u.rem(20);
+    }
+
+    @include u.responsive(sm) {
+        &__container {
+            @include u.flex(flex, baseline, start, column);
+            gap: u.rem(40);
+        }
+
+        &__menu,
+        &__right {
+            @include u.flex(flex, baseline, start, column);
+        }
     }
 }
