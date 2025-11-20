@@ -3,15 +3,6 @@
 
 // header, footer, container
 
-.header {
-    width: 100%;
-    height: u.rem(90);
-    background-color: v.$Color_White;
-    @include u.position(fixed, 0, 0, none);
-    box-shadow: 0 u.rem(3) u.rem(10) rgba(0, 0, 0, 0.05);
-    z-index: 10;
-}
-
 .container {
     max-width: 1600px;
     width: 100%;
@@ -21,6 +12,23 @@
 
     @include u.responsive(xxl) {
         max-width: 100%;
+    }
+}
+
+.header {
+    width: 100%;
+    height: u.rem(90);
+    background-color: v.$Color_White;
+    @include u.position(fixed, 0, 0, none);
+    box-shadow: 0 u.rem(3) u.rem(10) rgba(0, 0, 0, 0.05);
+    z-index: 10;
+
+    &__container {
+        @include u.flex(flex, space-between, center);
+    }
+
+    &__nav {
+        @include u.flex();
     }
 }
 
@@ -34,7 +42,7 @@
     &__container {
         @include u.flex(flex, space-between, center);
         font-weight: 400;
-        font-size: u.rem(14);
+        // font-size: u.rem(16);
         gap: u.rem(10);
     }
 
