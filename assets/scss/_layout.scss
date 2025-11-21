@@ -22,15 +22,200 @@
     @include u.position(fixed, 0, 0, none);
     box-shadow: 0 u.rem(3) u.rem(10) rgba(0, 0, 0, 0.05);
     z-index: 10;
+    font-size: u.rem(20);
 
     &__container {
         @include u.flex(flex, space-between, center);
+        height: 100%;
+    }
+
+    &__logo {
+        a {
+            width: u.rem(130);
+            height: u.rem(90);
+            position: relative;
+        }
+
+        img {
+            @include u.position();
+        }
     }
 
     &__nav {
-        @include u.flex();
+        display: block;
+    }
+
+    &__menu {
+        @include u.flex($alignItems: center);
+        gap: u.rem(70);
+    }
+
+    // pc 검색창
+    &__search {
+        width: u.rem(250);
+        background-color: v.$Color_L_Grey;
+        border-radius: u.rem(50);
+        padding: u.rem(13) u.rem(15);
+        @include u.flex(flex, space-between, center);
+        gap: u.rem(8);
+
+        input {
+            width: 100%;
+            border: none;
+            outline: none;
+            background: none;
+            font-size: 1rem;
+        }
+
+        i {
+            font-size: 1rem;
+        }
+    }
+
+    &__mobile-btns {
+        @include u.flex(flex, center, center)
+    }
+
+    // 모바일 검색 아이콘
+    .search__icon {
+        display: none;
+        background: none;
+        border: none;
+        font-size: u.rem(22);
+    }
+
+    // 햄버거 버튼
+    .hamburger {
+        display: none;
+        background: none;
+        border: none;
+        font-size: u.rem(26);
+        z-index: 11;
+    }
+
+    &__bg {
+        display: none;
+        position: fixed;
+        background-color: v.$overlay-bg;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #header__nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        max-width: 350px;
+        height: 100vh;
+        background: v.$Color_White;
+        padding: u.rem(75) u.rem(100);
+        transition: 0.3s;
+    }
+
+    @include u.responsive(lg) {
+        &__nav {
+            display: none;
+        }
+
+        .hamburger {
+            display: block;
+        }
+
+        .search__icon {
+            display: block;
+        }
+
+        .header__search {
+            display: none;
+        }
+    }
+
+    @include u.responsive(lg) {
+        #header__nav {
+            width: 80%;
+        }
+    }
+
+    @include u.responsive(sm) {
+        #header__nav {
+            width: 100%;
+        }
+    }
+
+    /* 1023px 검색 활성화 */
+    .search__full {
+        display: none;
+        position: fixed;
+        top: u.rem(90);
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: v.$overlay-bg;
+        border-top: 2px solid v.$Color_Silver;
+
+        .search__wrap {
+            width: 100%;
+            height: 32vh;
+            background-color: v.$Color_White;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: u.rem(30) u.rem(65);
+            transition: 0.3s;
+
+            .active {
+                top: u.rem(90);
+            }
+        }
+    }
+
+    .search__input-group {
+        @include u.flex(flex, space-between, center);
+        padding: u.rem(20) u.rem(30);
+        background: v.$Color_White;
+        border: 1px solid v.$Color_L_Grey;
+        border-radius: 50px;
+        margin: u.rem(30) 0 u.rem(40);
+
+        input {
+            border: none;
+            outline: none;
+            width: 100%;
+            font-size: u.rem(16);
+        }
+
+        button {
+            border: none;
+            outline: none;
+            background: none;
+            padding: 0;
+            font-size: u.rem(20);
+        }
+    }
+
+    .search__title {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .search__tags {
+        display: flex;
+        gap: u.rem(10);
+        margin-top: u.rem(15);
+
+        .tag {
+            padding: u.rem(10) 1rem;
+            border-radius: u.rem(50);
+            border: 1px solid v.$Color_L_Grey;
+            background: none;
+            color: v.$Color_Foot_Black;
+        }
     }
 }
+
 
 .footer {
     width: 100%;
@@ -42,7 +227,7 @@
     &__container {
         @include u.flex(flex, space-between, center);
         font-weight: 400;
-        // font-size: u.rem(16);
+        font-size: u.rem(16);
         gap: u.rem(10);
     }
 
@@ -78,6 +263,7 @@
         &__container {
             @include u.flex(flex, baseline, start, column);
             gap: u.rem(40);
+            font-size: u.rem(14);
         }
 
         &__menu,

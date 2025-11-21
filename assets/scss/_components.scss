@@ -157,10 +157,17 @@
     }
 
     @include u.responsive(lg) {
+        width: 100%;
+        max-width: u.rem(250);
+        height: u.rem(380);
+
         &__link {
             display: flex;
             flex-direction: column;
             gap: u.rem(15);
+            width: 100%;
+            max-width: u.rem(250);
+            height: u.rem(380);
         }
 
         &:hover &__img {

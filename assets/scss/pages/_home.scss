@@ -232,6 +232,12 @@
         .swiper-slide {
             width: u.rem(290)
         }
+
+        @include u.responsive(lg) {
+            .swiper-slide {
+                width: u.rem(250);
+            }
+        }
     }
 
 
