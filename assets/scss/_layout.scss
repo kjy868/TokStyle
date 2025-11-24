@@ -21,7 +21,7 @@
     background-color: v.$Color_White;
     @include u.position(fixed, 0, 0, none);
     box-shadow: 0 u.rem(3) u.rem(10) rgba(0, 0, 0, 0.05);
-    z-index: 10;
+    z-index: 2000;
     font-size: u.rem(20);
 
     &__container {
@@ -42,12 +42,17 @@
     }
 
     &__nav {
-        display: block;
+        display: block !important;
     }
 
     &__menu {
         @include u.flex($alignItems: center);
         gap: u.rem(70);
+
+        a {
+            font-size: u.rem(18);
+            color: v.$Color_Foot_Black;
+        }
     }
 
     // pc 검색창
@@ -66,31 +71,29 @@
             background: none;
             font-size: 1rem;
         }
-
-        i {
-            font-size: 1rem;
-        }
     }
 
     &__mobile-btns {
-        @include u.flex(flex, center, center)
+        @include u.flex(flex, center, center);
+        gap: u.rem(15);
     }
 
     // 모바일 검색 아이콘
-    .search__icon {
-        display: none;
-        background: none;
-        border: none;
-        font-size: u.rem(22);
-    }
-
-    // 햄버거 버튼
+    .search__icon,
     .hamburger {
         display: none;
         background: none;
         border: none;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .search__icon {
+        font-size: u.rem(22);
+    }
+
+    .hamburger {
         font-size: u.rem(26);
-        z-index: 11;
     }
 
     &__bg {
@@ -101,29 +104,32 @@
         left: 0;
         width: 100%;
         height: 100vh;
+        z-index: 900;
     }
 
     #header__nav {
         position: fixed;
         top: 0;
-        right: -100%;
-        width: 70%;
+        right: -100vw;
+        width: 70vw;
         max-width: 350px;
         height: 100vh;
         background: v.$Color_White;
         padding: u.rem(75) u.rem(100);
-        transition: 0.3s;
+        transition: right 0.3s;
+        z-index: 999;
+    }
+
+    #header__nav.active {
+        right: 0;
     }
 
     @include u.responsive(lg) {
         &__nav {
-            display: none;
+            display: none !important;
         }
 
-        .hamburger {
-            display: block;
-        }
-
+        .hamburger,
         .search__icon {
             display: block;
         }
@@ -131,9 +137,7 @@
         .header__search {
             display: none;
         }
-    }
 
-    @include u.responsive(lg) {
         #header__nav {
             width: 80%;
         }
@@ -153,46 +157,53 @@
         left: 0;
         width: 100%;
         height: 100vh;
-        background-color: v.$overlay-bg;
         border-top: 2px solid v.$Color_Silver;
+        z-index: 950;
+        pointer-events: none;
+        transition: opacity 0.3s;
+    }
 
-        .search__wrap {
-            width: 100%;
-            height: 32vh;
-            background-color: v.$Color_White;
-            position: absolute;
-            top: 0;
-            left: 0;
-            padding: u.rem(30) u.rem(65);
-            transition: 0.3s;
+    .search__full.active {
+        display: block;
+        pointer-events: auto;
+    }
 
-            .active {
-                top: u.rem(90);
-            }
-        }
+    .search__wrap {
+        width: 100%;
+        height: 35vh;
+        background-color: v.$Color_White;
+        position: absolute;
+        top: -50vh;
+        left: 0;
+        padding: u.rem(30) u.rem(65);
+        transition: bottom 0.3s;
+    }
+
+    .search__full.active .search__wrap {
+        top: 0;
     }
 
     .search__input-group {
         @include u.flex(flex, space-between, center);
         padding: u.rem(20) u.rem(30);
-        background: v.$Color_White;
+        // background: v.$Color_White;
         border: 1px solid v.$Color_L_Grey;
         border-radius: 50px;
-        margin: u.rem(30) 0 u.rem(40);
+        margin: u.rem(25) 0;
 
         input {
             border: none;
             outline: none;
             width: 100%;
-            font-size: u.rem(16);
+            // font-size: u.rem(16);
         }
 
         button {
             border: none;
             outline: none;
             background: none;
-            padding: 0;
-            font-size: u.rem(20);
+            // padding: 0;
+            font-size: u.rem(18);
         }
     }
 
@@ -211,7 +222,8 @@
             border-radius: u.rem(50);
             border: 1px solid v.$Color_L_Grey;
             background: none;
-            color: v.$Color_Foot_Black;
+            // color: v.$Color_Foot_Black;
+            cursor: pointer;
         }
     }
 }
