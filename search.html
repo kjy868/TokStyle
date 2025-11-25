@@ -82,101 +82,115 @@
         </div>
     </header>
 
-    <div class="container">
+    <main>
+
         <main class="search mt-4">
-            <div id="breadcrumb"></div>
+            <div class="container">
+                <div id="breadcrumb"></div>
 
-            <section class="search__bar">
-                <form id="searchForm">
-                    <input type="text" id="searchInput" placeholder="검색어를 입력하세요" value="">
-                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
-            </section>
+                <section class="search__bar">
+                    <form id="searchForm">
+                        <input type="text" id="searchInput" placeholder="검색어를 입력하세요" value="">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </section>
 
-            <div class="filter-tabs mt-8">
-                <button class="filter-tabs__btn filter-tabs__btn--active" data-sort="recent">신착순</button>
-                <span class="filter-tabs__divider">|</span>
-                <button class="filter-tabs__btn" data-sort="popular">인기순</button>
-            </div>
-
-            <section class="search__result mt-2" id="searchResults">
-                <div class="card-theme-list">
-                    <div class="card-theme-list__img-wrap">
-                        <img src="" alt="테마 이미지" class="card-theme-list__img">
-                    </div>
-                    <h4 class="card-theme-list__title">테마이름</h4>
-                    <div class="card-theme-list__artist">
-                        <div class="card-theme-list__artist-img">
-                            <img src="" alt="작가이미지">
-                        </div>
-                        <p class="card-theme-list__artist-name">작가이름</p>
-                    </div>
-                    <div class="card-theme-list__tag-wrap">
-                        <div class="tag tag--platform">iOS</div>
-                        <div class="tag tag--platform">AND</div>
-                        <div class="tag tag--platform">무료</div>
-                    </div>
+                <div class="filter-tabs mt-8">
+                    <button class="filter-tabs__btn filter-tabs__btn--active" data-sort="recent">신착순</button>
+                    <span class="filter-tabs__divider">|</span>
+                    <button class="filter-tabs__btn" data-sort="popular">인기순</button>
                 </div>
-            </section>
 
-            <div class="pagination mt">
-                <button class="prev"><i class="fa-solid fa-angles-left"></i></button>
-                <button class="page active"></button>
+                <section class="search__result mt-2" id="searchResults">
+                    <div class="card-theme-list">
+                        <div class="card-theme-list__img-wrap">
+                            <img src="" alt="테마 이미지" class="card-theme-list__img">
+                        </div>
+                        <h4 class="card-theme-list__title">테마이름</h4>
+                        <div class="card-theme-list__artist">
+                            <div class="card-theme-list__artist-img">
+                                <img src="" alt="작가이미지">
+                            </div>
+                            <p class="card-theme-list__artist-name">작가이름</p>
+                        </div>
+                        <div class="card-theme-list__tag-wrap">
+                            <div class="tag tag--platform">iOS</div>
+                            <div class="tag tag--platform">AND</div>
+                            <div class="tag tag--platform">무료</div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="pagination mt" id="pagination">
+                    <button class="pagination__btn pagination__first" data-page="first">
+                        <i class="fa-solid fa-angles-left"></i>
+                    </button>
+                    <button class="pagination__btn pagination__prev" data-page="prev">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <div class="pagination__pages"></div>
+                    <button class="pagination__btn pagination__next" data-page="next">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                    <button class="pagination__btn pagination__next" data-page="last">
+                        <i class="fa-solid fa-angles-right"></i>
+                    </button>
+                </div>
             </div>
         </main>
-    </div>
 
-    <footer class="footer" id="footer">
-        <div class="container footer__container">
-            <div class="footer__left">
-                <h1 class="footer__logo">
-                    <a href="#footer">
-                        <img src="./assets/images/footer__logo.png" alt="톡스타일">
-                    </a>
-                </h1>
-                <p class="footer__copyright">
-                    © 2025 Project Tokstyle Corp.<br>
-                    모든 테마의 저작권은 모두 각 테마의 저작권자에게 있습니다.<br>
-                    테마 사용에 대한 라이센스 문의는 저작권자에게 문의해주세요.
-                </p>
-                <ul class="footer__policy">
-                    <li><a href="#footer">이용약관</a></li>
-                    <li><a href="#footer">개인정보처리방침</a></li>
-                </ul>
+
+        <footer class="footer" id="footer">
+            <div class="container footer__container">
+                <div class="footer__left">
+                    <h1 class="footer__logo">
+                        <a href="#footer">
+                            <img src="./assets/images/footer__logo.png" alt="톡스타일">
+                        </a>
+                    </h1>
+                    <p class="footer__copyright">
+                        © 2025 Project Tokstyle Corp.<br>
+                        모든 테마의 저작권은 모두 각 테마의 저작권자에게 있습니다.<br>
+                        테마 사용에 대한 라이센스 문의는 저작권자에게 문의해주세요.
+                    </p>
+                    <ul class="footer__policy">
+                        <li><a href="#footer">이용약관</a></li>
+                        <li><a href="#footer">개인정보처리방침</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__right">
+                    <ul class="footer__menu">
+                        <li><a href="#footer">테마 제보하기</a></li>
+                        <li><a href="#footer">자주 묻는 질문</a></li>
+                    </ul>
+
+                    <ul class="footer__sns">
+                        <li>
+                            <a href="#footer">
+                                <img src="./assets/images/footerSNS_X.png" alt="엑스">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#footer">
+                                <img src="./assets/images/footerSNS_instagram.png" alt="인스타그램">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#footer">
+                                <img src="./assets/images/footerSNS_facebook.png" alt="페이스북">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="footer__right">
-                <ul class="footer__menu">
-                    <li><a href="#footer">테마 제보하기</a></li>
-                    <li><a href="#footer">자주 묻는 질문</a></li>
-                </ul>
-
-                <ul class="footer__sns">
-                    <li>
-                        <a href="#footer">
-                            <img src="./assets/images/footerSNS_X.png" alt="엑스">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#footer">
-                            <img src="./assets/images/footerSNS_instagram.png" alt="인스타그램">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#footer">
-                            <img src="./assets/images/footerSNS_facebook.png" alt="페이스북">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+        </footer>
 
 
 
-    <script src="./assets/js/jquery-1.12.3.js"></script>
-    <script src="./assets/js/common.js"></script>
-    <script src="./assets/js/search.js"></script>
+        <script src="./assets/js/jquery-1.12.3.js"></script>
+        <script src="./assets/js/common.js"></script>
+        <script src="./assets/js/search.js"></script>
 </body>
 
 </html>

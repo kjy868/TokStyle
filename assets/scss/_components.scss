@@ -19,6 +19,49 @@
     }
 }
 
+// pagination
+.pagination {
+    @include u.flex(flex, center, center);
+    gap: u.rem(20);
+
+    &__btn {
+        @include u.btnReset();
+        font-size: 1rem;
+        color: v.$Color_D_Grey;
+        transition: 0.2s ease;
+
+        &:hover {
+            color: v.$Color_Btn_Black;
+        }
+
+        &.disabled {
+            opacity: 0.3;
+            cursor: default;
+        }
+    }
+
+    &__pages {
+        @include u.flex();
+        gap: u.rem(24);
+    }
+
+    &__page {
+        font-size: u.rem(20);
+        cursor: pointer;
+        color: v.$Color_Conts_Black;
+
+        &.is-current {
+            font-weight: 600;
+            color: v.$Color_Btn_Black;
+            border-bottom: 2px solid v.$Color_Btn_Black;
+        }
+
+        &:hover {
+            color: #000;
+        }
+    }
+}
+
 // filter tabs
 .filter-tabs {
     @include u.flex(flex, baseline, center);
