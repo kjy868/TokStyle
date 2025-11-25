@@ -18,6 +18,10 @@ body {
     font-weight: 500;
 }
 
+body.scroll-lock {
+    overflow: hidden;
+}
+
 a {
     text-decoration: none;
     display: block;

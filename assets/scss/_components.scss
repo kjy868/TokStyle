@@ -19,6 +19,26 @@
     }
 }
 
+// filter tabs
+.filter-tabs {
+    @include u.flex(flex, baseline, center);
+    gap: u.rem(10);
+    font-weight: 100;
+    font-size: u.rem(20);
+
+    &__btn {
+        @include u.btnReset();
+        font-size: u.rem(18);
+        font-weight: 400;
+        color: v.$Color_D_Grey;
+
+        &--active {
+            font-weight: 600;
+            color: v.$Color_Conts_Black;
+        }
+    }
+}
+
 // button 
 .btn-black {
     padding: u.rem(15) u.rem(60);
@@ -57,6 +77,16 @@
     &:not(&--active):hover {
         background-color: v.$Color_ExtraL_Primary;
     }
+}
+
+.tag {
+    padding: u.rem(5) u.rem(15);
+    font-size: 1rem;
+    font-weight: 300;
+    border: 1px solid v.$Color_L_Grey;
+    border-radius: 50px;
+    color: v.$Color_D_Grey;
+    display: inline-block;
 }
 
 
@@ -211,5 +241,50 @@
         &__title {
             font-size: u.rem(20);
         }
+    }
+}
+
+.card-theme-list {
+    @include u.flex(flex, baseline, start, column);
+    gap: u.rem(10);
+
+    &__img-wrap {
+        width: u.rem(300);
+        height: u.rem(285);
+        border-radius: u.rem(20);
+        overflow: hidden;
+        border: 1px solid v.$Color_L_Grey;
+
+        @include u.responsive(sm) {
+            width: u.rem(210);
+            height: u.rem(238);
+        }
+    }
+
+    &__img {
+        @include u.img();
+    }
+
+    &__title {
+        font-size: u.rem(18);
+        font-family: 'Paperozi';
+    }
+
+    &__artist {
+        @include u.flex(flex, baseline, center);
+        gap: u.rem(8);
+    }
+
+    &__artist-img {
+        width: u.rem(22);
+        height: u.rem(22);
+        border-radius: 50px;
+        border: 0.5px solid v.$Color_L_Grey;
+        overflow: hidden;
+    }
+
+    &__artist-name {
+        font-size: 1rem;
+        font-weight: 400;
     }
 }

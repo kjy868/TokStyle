@@ -27,3 +27,10 @@
     background-repeat: $background-repeat;
     background-size: $background-size;
 }
+
+// button reset mixin
+@mixin btnReset($border: none, $outline: none, $background: none) {
+    border: $border;
+    outline: $outline;
+    background: $background;
+}

@@ -1,8 +1,6 @@
 @use './variables' as v;
 @use './utils' as u;
 
-// header, footer, container
-
 .container {
     max-width: 1600px;
     width: 100%;
@@ -45,8 +43,13 @@
         display: block !important;
     }
 
+    &__right {
+        @include u.flex(flex, center, center);
+        gap: u.rem(15);
+    }
+
     &__menu {
-        @include u.flex($alignItems: center);
+        @include u.flex(flex, center, center);
         gap: u.rem(70);
 
         a {
@@ -55,7 +58,6 @@
         }
     }
 
-    // pc 검색창
     &__search {
         width: u.rem(250);
         background-color: v.$Color_L_Grey;
@@ -66,9 +68,7 @@
 
         input {
             width: 100%;
-            border: none;
-            outline: none;
-            background: none;
+            @include u.btnReset();
             font-size: 1rem;
         }
     }
@@ -78,55 +78,63 @@
         gap: u.rem(15);
     }
 
-    // 모바일 검색 아이콘
     .search__icon,
     .hamburger {
+        @include u.btnReset();
         display: none;
-        background: none;
-        border: none;
         cursor: pointer;
         transition: 0.2s;
     }
 
     .search__icon {
         font-size: u.rem(22);
+
+        &.active {
+            color: v.$Color_Primary;
+        }
     }
 
     .hamburger {
         font-size: u.rem(26);
+
+        &.active {
+            color: v.$Color_Primary;
+        }
     }
 
     &__bg {
         display: none;
         position: fixed;
         background-color: v.$overlay-bg;
-        top: 0;
+        top: u.rem(90);
         left: 0;
         width: 100%;
-        height: 100vh;
+        height: calc(100vh - u.rem(90));
         z-index: 900;
     }
 
-    #header__nav {
-        position: fixed;
-        top: 0;
-        right: -100vw;
-        width: 70vw;
-        max-width: 350px;
-        height: 100vh;
-        background: v.$Color_White;
-        padding: u.rem(75) u.rem(100);
-        transition: right 0.3s;
-        z-index: 999;
-    }
-
-    #header__nav.active {
-        right: 0;
-    }
-
     @include u.responsive(lg) {
-        &__nav {
-            display: none !important;
+        #header__nav {
+            position: fixed;
+            top: u.rem(90);
+            right: -100vw;
+            width: 70vw;
+            height: calc(100vh - u.rem(90));
+            background: v.$Color_White;
+            padding: u.rem(60);
+            transition: right 0.3s;
+            z-index: 999;
+            display: block !important;
+        }
+
+        #header__nav.active {
+            right: 0;
+        }
+
+        &__menu {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: u.rem(60);
         }
 
         .hamburger,
@@ -137,10 +145,6 @@
         .header__search {
             display: none;
         }
-
-        #header__nav {
-            width: 80%;
-        }
     }
 
     @include u.responsive(sm) {
@@ -149,60 +153,44 @@
         }
     }
 
-    /* 1023px 검색 활성화 */
-    .search__full {
-        display: none;
+    .search__wrap {
         position: fixed;
         top: u.rem(90);
         left: 0;
         width: 100%;
-        height: 100vh;
-        border-top: 2px solid v.$Color_Silver;
-        z-index: 950;
-        pointer-events: none;
-        transition: opacity 0.3s;
-    }
-
-    .search__full.active {
-        display: block;
-        pointer-events: auto;
-    }
-
-    .search__wrap {
-        width: 100%;
         height: 35vh;
         background-color: v.$Color_White;
-        position: absolute;
-        top: -50vh;
-        left: 0;
+        border-top: 2px solid v.$Color_Silver;
         padding: u.rem(30) u.rem(65);
-        transition: bottom 0.3s;
+        z-index: 1500;
+        transform: translateY(-100%);
+        transition: transform 0.3s, opacity 0.3s, visibility 0.2s;
+        @include u.flex(flex, center, start, column);
+        visibility: hidden;
+        opacity: 0;
     }
 
-    .search__full.active .search__wrap {
-        top: 0;
+    .search__wrap.active {
+        transform: translateY(0);
+        visibility: visible;
+        opacity: 1;
     }
 
     .search__input-group {
         @include u.flex(flex, space-between, center);
+        width: 100%;
         padding: u.rem(20) u.rem(30);
-        // background: v.$Color_White;
         border: 1px solid v.$Color_L_Grey;
         border-radius: 50px;
         margin: u.rem(25) 0;
 
         input {
-            border: none;
-            outline: none;
+            @include u.btnReset();
             width: 100%;
-            // font-size: u.rem(16);
         }
 
         button {
-            border: none;
-            outline: none;
-            background: none;
-            // padding: 0;
+            @include u.btnReset();
             font-size: u.rem(18);
         }
     }
@@ -210,24 +198,42 @@
     .search__title {
         font-size: 1rem;
         font-weight: 500;
+        width: 100%;
     }
 
     .search__tags {
         display: flex;
         gap: u.rem(10);
         margin-top: u.rem(15);
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: u.rem(10);
+        width: 100%;
+
+        &::-webkit-scrollbar {
+            height: u.rem(6);
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: v.$Color_L_Grey;
+            border-radius: u.rem(3);
+        }
+
+        &::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
 
         .tag {
             padding: u.rem(10) 1rem;
             border-radius: u.rem(50);
             border: 1px solid v.$Color_L_Grey;
             background: none;
-            // color: v.$Color_Foot_Black;
             cursor: pointer;
+            white-space: nowrap;
+            flex-shrink: 0;
         }
     }
 }
-
 
 .footer {
     width: 100%;
@@ -263,7 +269,7 @@
     }
 
     &__menu {
-        @include u.flex(flex, baseline, flex-end, column);
+        @include u.flex(flex, baseline, stretch, column);
     }
 
     &__sns {
