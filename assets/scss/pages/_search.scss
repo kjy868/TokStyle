@@ -31,4 +31,11 @@
             }
         }
     }
+
+    .no-result {
+        font-size: 1rem;
+        text-align: center;
+        padding: u.rem(40) 0;
+        color: v.$Color_D_Grey;
+    }
 }

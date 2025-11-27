@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>톡스타일 - 검색</title>
+    <title>톡스타일 - 전체테마</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -81,27 +81,26 @@
         </div>
     </header>
 
-    <main class="search mt-4">
+    <main class="theme-list mt-4">
         <div class="container">
-            <div id="breadcrumb"></div>
+            <nav class="breadcrumb">
+                <a href="./index.html" class="breadcrumb__item">홈</a>
+                <span class="breadcrumb__divider"><i class="fa-solid fa-angle-right"></i></span>
 
-            <section class="search__bar">
-                <form id="searchForm">
-                    <input type="text" id="searchInput" placeholder="검색어를 입력하세요" value="">
-                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
-            </section>
+                <a href="./theme-list.html" class="breadcrumb__item--current">전체 테마</a>
+            </nav>
 
-            <div class="filter-tabs mt-8">
-                <button class="filter-tabs__btn filter-tabs__btn--active" data-sort="recent">신착순</button>
-                <span class="filter-tabs__divider">|</span>
-                <button class="filter-tabs__btn" data-sort="popular">인기순</button>
+            <h2 class="title mt-4 theme-list__title">테마 전체보기</h2>
+
+            <div class="theme-list__filter-wrap mt-8">
+                <button class="theme-list__filter-btn">
+                    인기순
+                </button>
             </div>
 
-            <section class="search__result mt-2" id="searchResults">
+            <div class="theme-list__card-wrap mt-2">
                 <div class="card-theme-grid"></div>
-
-            </section>
+            </div>
 
             <div class="pagination mt" id="pagination">
                 <button class="pagination__btn pagination__first" data-page="first">
@@ -120,7 +119,6 @@
             </div>
         </div>
     </main>
-
 
     <footer class="footer" id="footer">
         <div class="container footer__container">
@@ -168,11 +166,9 @@
         </div>
     </footer>
 
-
-
     <script src="./assets/js/jquery-1.12.3.js"></script>
     <script src="./assets/js/common.js"></script>
-    <script src="./assets/js/search.js"></script>
+    <script src="./assets/js/theme-list.js"></script>
 </body>
 
 </html>

@@ -49,6 +49,10 @@
             font-size: u.rem(18);
             color: v.$Color_Foot_Black;
         }
+
+        a.active {
+            color: v.$Color_Primary;
+        }
     }
 
     // pc 검색창
@@ -125,7 +129,6 @@
             top: u.rem(90);
             right: -100vw;
             width: 70vw;
-            max-width: 350px;
             height: calc(100vh - u.rem(90));
             background: v.$Color_White;
             padding: u.rem(75) u.rem(100);

@@ -19,6 +19,24 @@
     }
 }
 
+// breadcrumb
+.breadcrumb {
+    @include u.flex(flex, baseline, center);
+    font-weight: 500;
+    font-size: u.rem(14);
+    gap: u.rem(6);
+    color: v.$Color_L_Grey;
+
+    &__item:hover {
+        color: v.$Color_Btn_Black;
+    }
+
+    &__item--current {
+        color: v.$Color_Foot_Black;
+        font-weight: 700;
+    }
+}
+
 // pagination
 .pagination {
     @include u.flex(flex, center, center);
@@ -130,11 +148,38 @@
     border-radius: 50px;
     color: v.$Color_D_Grey;
     display: inline-block;
+
+    @include u.responsive(sm) {
+        padding: u.rem(4) u.rem(10);
+        font-size: u.rem(14);
+    }
 }
 
 
 
 // card
+.card-theme-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: u.rem(50) u.rem(25);
+
+    @include u.responsive(xl) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    @include u.responsive(lg) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include u.responsive(md) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include u.responsive(sm) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .card-theme {
     position: relative;
     border-radius: 1rem;
@@ -292,25 +337,32 @@
     gap: u.rem(10);
 
     &__img-wrap {
-        width: u.rem(300);
-        height: u.rem(285);
+        width: 100%;
+        // height: u.rem(285);
+        aspect-ratio: 20 / 19;
         border-radius: u.rem(20);
         overflow: hidden;
         border: 1px solid v.$Color_L_Grey;
 
         @include u.responsive(sm) {
-            width: u.rem(210);
-            height: u.rem(238);
+            width: 100%;
+            aspect-ratio: 210/245;
         }
     }
 
     &__img {
-        @include u.img();
+        @include u.img(100%, 100%);
     }
 
     &__title {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
         font-size: u.rem(18);
+        width: 100%;
         font-family: 'Paperozi';
+        min-height: calc(1.3em * 2)
     }
 
     &__artist {
@@ -324,6 +376,10 @@
         border-radius: 50px;
         border: 0.5px solid v.$Color_L_Grey;
         overflow: hidden;
+
+        img {
+            @include u.img(100%, 100%)
+        }
     }
 
     &__artist-name {
