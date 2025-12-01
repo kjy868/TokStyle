@@ -45,6 +45,25 @@ $(function () {
         render();
     }
 
+    // 정렬 기능
+    $(document).on("click", ".filter-tabs__btn", function () {
+        $(".filter-tabs__btn").removeClass("filter-tabs__btn--active");
+        $(this).addClass("filter-tabs__btn--active");
+
+        const sortType = $(this).data("sort");
+
+        if (sortType === "recent") {
+            filteredThemes.sort((a, b) => b.id - a.id); // 최신순
+        } else if (sortType === "popular") {
+            filteredThemes.sort((a, b) => a.id - b.id); // 인기순
+        }
+
+        currentPage = 1;
+        render();
+
+        window.scrollTo({ top: 0, behavior: "smooth" }); // 클릭 시 최상단으로 이동
+    });
+
     // 카드 HTML
     function createCard(theme) {
         const artist = artists.find(a => a.id === theme.artistId);
