@@ -5,58 +5,66 @@
  * @param {*} currentPage 현재 페이지
  * @param {*} onChangePage 페이지 변경 콜백 함수
  */
-function buildPagination(totalItems, itemsPerPage, currentPage, onChangePage) {
-    const totalPages = Math.ceil(totalItems / itemsPerPage);
-    const $pagination = $("#pagination");
-    const $pages = $(".pagination__pages");
+$(function () {
+    window.buildPagination = function (totalItems, itemsPerPage, currentPage, onChangePage) {
+        const totalPages = Math.ceil(totalItems / itemsPerPage);
+        const $pagination = $("#pagination");
+        const $pages = $(".pagination__pages");
 
-    if (totalPages === 0) {
-        $pagination.hide();
-        return;
-    }
-    $pagination.show();
+        if (totalPages === 0) {
+            $pagination.hide();
+            return;
+        }
+        $pagination.show();
 
-    $pages.empty();
+        $pages.empty();
 
-    for (let i = 1; i <= totalPages; i++) {
-        const active = i === currentPage ? "is-current" : "";
-        $pages.append(`<span class="pagination__page ${active}" data-page="${i}">${i}</span>`);
-    }
+        const pageGroupSize = 5;
+        const currentGroup = Math.ceil(currentPage / pageGroupSize);
 
-    $(".pagination__first, .pagination__prev").toggleClass("disabled", currentPage === 1);
+        const startPage = (currentGroup - 1) * pageGroupSize + 1;
+        const endPage = Math.min(startPage + pageGroupSize - 1, totalPages);
 
-    $(".pagination__next[data-page='next'], .pagination__next[data-page='last']")
-        .toggleClass("disabled", currentPage === totalPages);
+        for (let i = startPage; i <= endPage; i++) {
+            const active = i === currentPage ? "is-current" : "";
+            $pages.append(`<span class="pagination__page ${active}" data-page="${i}">${i}</span>`);
+        }
 
-    $(document).off("click.page").on("click.page", ".pagination__page", function () {
-        const page = Number($(this).data("page"));
-        onChangePage(page);
-    });
+        $(".pagination__first, .pagination__prev").toggleClass("disabled", currentPage === 1);
 
-    $(".pagination__first").off("click.page").on("click.page", function () {
-        if ($(this).hasClass("disabled")) return;
-        onChangePage(1);
-    });
+        $(".pagination__next[data-page='next'], .pagination__next[data-page='last']")
+            .toggleClass("disabled", currentPage === totalPages);
 
-    $(".pagination__prev").off("click.page").on("click.page", function () {
-        if ($(this).hasClass("disabled")) return;
-        onChangePage(currentPage - 1);
-    });
-
-    $(".pagination__next[data-page='next']")
-        .off("click.page")
-        .on("click.page", function () {
-            if ($(this).hasClass("disabled")) return;
-            onChangePage(currentPage + 1);
+        $(document).off("click.page").on("click.page", ".pagination__page", function () {
+            const page = Number($(this).data("page"));
+            onChangePage(page);
         });
 
-    $(".pagination__next[data-page='last']")
-        .off("click.page")
-        .on("click.page", function () {
+        $(".pagination__first").off("click.page").on("click.page", function () {
             if ($(this).hasClass("disabled")) return;
-            onChangePage(totalPages);
+            onChangePage(1);
         });
-}
+
+        $(".pagination__prev").off("click.page").on("click.page", function () {
+            if ($(this).hasClass("disabled")) return;
+            onChangePage(currentPage - 1);
+        });
+
+        $(".pagination__next[data-page='next']")
+            .off("click.page")
+            .on("click.page", function () {
+                if ($(this).hasClass("disabled")) return;
+                onChangePage(currentPage + 1);
+            });
+
+        $(".pagination__next[data-page='last']")
+            .off("click.page")
+            .on("click.page", function () {
+                if ($(this).hasClass("disabled")) return;
+                onChangePage(totalPages);
+            });
+    }
+});
 
 // =====================================================================
 // header 공용 기능
