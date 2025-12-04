@@ -1,0 +1,32 @@
+@use '../variables' as v;
+@use '../utils.scss' as u;
+@use '../layout' as l;
+
+.theme-list__filter-wrap {
+    @include u.flex();
+    gap: u.rem(12);
+
+    button {
+        @include u.btnReset();
+        cursor: pointer;
+    }
+
+    .filter-dropdown,
+    .btn-filter {
+        border: 1px solid v.$Color_Grey;
+        color: v.$Color_Grey;
+        border-radius: u.rem(50);
+        padding: u.rem(5) u.rem(15);
+
+        option {
+            @include u.btnReset();
+            color: v.$Color_D_Grey;
+            background-color: v.$Color_L_Grey;
+        }
+    }
+
+    .filter-dropdown.active,
+    .btn-filter.active {
+        border: 1px solid v.$Color_Conts_Black;
+    }
+}

@@ -9,7 +9,19 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "pink",
+            "blue"
+        ],
+        "mood": [
+            "simple",
+            "retro"
+        ],
+        "season": [
+            "summer"
+        ],
+        "event": []
     },
     {
         "id": 102,
@@ -21,7 +33,18 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "green"
+        ],
+        "mood": [
+            "simple",
+            "retro"
+        ],
+        "season": [
+            "summer"
+        ],
+        "event": []
     },
     {
         "id": 103,
@@ -33,7 +56,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "purple"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 104,
@@ -45,7 +76,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "blue"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [
+            "summer"
+        ],
+        "event": []
     },
     {
         "id": 105,
@@ -57,7 +98,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "yellow"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 106,
@@ -69,7 +118,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "blue"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [
+            "summer"
+        ],
+        "event": []
     },
     {
         "id": 107,
@@ -81,7 +140,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "green"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 108,
@@ -93,7 +160,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "pink"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 109,
@@ -105,7 +180,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "red"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 110,
@@ -117,7 +200,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "green"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 111,
@@ -129,7 +220,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "pink"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 112,
@@ -141,7 +240,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "blue"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 113,
@@ -153,7 +260,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "green"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 114,
@@ -165,7 +280,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "blue"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 115,
@@ -177,7 +300,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "yellow"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 116,
@@ -189,7 +320,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "pink",
+            "green"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 117,
@@ -201,7 +341,18 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "pink"
+        ],
+        "mood": [
+            "retro",
+            "simple"
+        ],
+        "season": [
+            "spring"
+        ],
+        "event": []
     },
     {
         "id": 118,
@@ -213,7 +364,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "blue"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 119,
@@ -225,7 +384,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "pink"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 120,
@@ -237,7 +404,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "green"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 121,
@@ -249,7 +424,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "red"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 122,
@@ -261,7 +444,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "blue"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 123,
@@ -273,7 +464,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "pink"
+        ],
+        "mood": [
+            "retro"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 124,
@@ -285,7 +484,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "pink",
+            "blue",
+            "green"
+        ],
+        "mood": [
+            "retro"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 125,
@@ -297,7 +506,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "green"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 126,
@@ -309,7 +526,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 1
+        "artistId": 1,
+        "color": [
+            "purple"
+        ],
+        "mood": [
+            "cool"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 127,
@@ -320,7 +545,15 @@
         "platform": [
             "iOS"
         ],
-        "artistId": 2
+        "artistId": 2,
+        "color": [
+            "pink"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 128,
@@ -331,7 +564,15 @@
         "platform": [
             "iOS"
         ],
-        "artistId": 2
+        "artistId": 2,
+        "color": [
+            "blue"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 129,
@@ -342,7 +583,15 @@
         "platform": [
             "iOS"
         ],
-        "artistId": 2
+        "artistId": 2,
+        "color": [
+            "green"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 130,
@@ -353,7 +602,15 @@
         "platform": [
             "iOS"
         ],
-        "artistId": 2
+        "artistId": 2,
+        "color": [
+            "black"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 131,
@@ -364,7 +621,15 @@
         "platform": [
             "iOS"
         ],
-        "artistId": 2
+        "artistId": 2,
+        "color": [
+            "green"
+        ],
+        "mood": [
+            "retro"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 132,
@@ -375,7 +640,15 @@
         "platform": [
             "iOS"
         ],
-        "artistId": 2
+        "artistId": 2,
+        "color": [
+            "pink"
+        ],
+        "mood": [
+            "retro"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 133,
@@ -386,7 +659,15 @@
         "platform": [
             "iOS"
         ],
-        "artistId": 2
+        "artistId": 2,
+        "color": [
+            "yellow"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 134,
@@ -397,7 +678,15 @@
         "platform": [
             "iOS"
         ],
-        "artistId": 2
+        "artistId": 2,
+        "color": [
+            "blue"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 135,
@@ -408,7 +697,16 @@
         "platform": [
             "iOS"
         ],
-        "artistId": 2
+        "artistId": 2,
+        "color": [
+            "blue",
+            "yellow"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 136,
@@ -419,7 +717,15 @@
         "platform": [
             "iOS"
         ],
-        "artistId": 2
+        "artistId": 2,
+        "color": [
+            "pink"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 137,
@@ -430,7 +736,18 @@
         "platform": [
             "iOS"
         ],
-        "artistId": 2
+        "artistId": 2,
+        "color": [
+            "pink",
+            "blue"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [
+            "winter"
+        ],
+        "event": []
     },
     {
         "id": 138,
@@ -441,7 +758,15 @@
         "platform": [
             "iOS"
         ],
-        "artistId": 2
+        "artistId": 2,
+        "color": [
+            "red"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 139,
@@ -453,7 +778,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 3
+        "artistId": 3,
+        "color": [
+            "blue"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 140,
@@ -464,7 +797,15 @@
         "platform": [
             "Android"
         ],
-        "artistId": 3
+        "artistId": 3,
+        "color": [
+            "blue"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 141,
@@ -476,7 +817,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 3
+        "artistId": 3,
+        "color": [
+            "grey"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [
+            "winter"
+        ],
+        "event": []
     },
     {
         "id": 142,
@@ -488,7 +839,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 4
+        "artistId": 4,
+        "color": [
+            "yellow"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 143,
@@ -500,7 +859,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 4
+        "artistId": 4,
+        "color": [
+            "red"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 144,
@@ -512,7 +879,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 4
+        "artistId": 4,
+        "color": [
+            "blue"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 145,
@@ -524,7 +899,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 4
+        "artistId": 4,
+        "color": [
+            "black"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 146,
@@ -536,7 +919,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 4
+        "artistId": 4,
+        "color": [
+            "green"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 147,
@@ -548,7 +939,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 4
+        "artistId": 4,
+        "color": [
+            "yellow"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 148,
@@ -560,7 +959,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 4
+        "artistId": 4,
+        "color": [
+            "black",
+            "grey"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 149,
@@ -572,7 +980,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 4
+        "artistId": 4,
+        "color": [
+            "green"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 150,
@@ -584,7 +1000,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 5
+        "artistId": 5,
+        "color": [
+            "yellow"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 151,
@@ -596,7 +1020,18 @@
             "iOS",
             "Android"
         ],
-        "artistId": 5
+        "artistId": 5,
+        "color": [
+            "blue"
+        ],
+        "mood": [
+            "simple",
+            "soft"
+        ],
+        "season": [
+            "summer"
+        ],
+        "event": []
     },
     {
         "id": 152,
@@ -608,7 +1043,18 @@
             "iOS",
             "Android"
         ],
-        "artistId": 5
+        "artistId": 5,
+        "color": [
+            "yellow"
+        ],
+        "mood": [
+            "simple",
+            "soft"
+        ],
+        "season": [
+            "spring"
+        ],
+        "event": []
     },
     {
         "id": 153,
@@ -620,7 +1066,18 @@
             "iOS",
             "Android"
         ],
-        "artistId": 5
+        "artistId": 5,
+        "color": [
+            "pink"
+        ],
+        "mood": [
+            "simple",
+            "soft"
+        ],
+        "season": [
+            "fall"
+        ],
+        "event": []
     },
     {
         "id": 154,
@@ -631,7 +1088,15 @@
         "platform": [
             "iOS"
         ],
-        "artistId": 5
+        "artistId": 5,
+        "color": [
+            "pink"
+        ],
+        "mood": [
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 155,
@@ -643,7 +1108,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 5
+        "artistId": 5,
+        "color": [
+            "green"
+        ],
+        "mood": [
+            "soft",
+            "cute"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 156,
@@ -655,7 +1129,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 5
+        "artistId": 5,
+        "color": [
+            "green",
+            "yellow"
+        ],
+        "mood": [
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 157,
@@ -667,7 +1150,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 5
+        "artistId": 5,
+        "color": [
+            "black"
+        ],
+        "mood": [
+            "cute"
+        ],
+        "season": [],
+        "event": [
+            "halloween"
+        ]
     },
     {
         "id": 158,
@@ -679,7 +1172,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 6
+        "artistId": 6,
+        "color": [
+            "orange"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 159,
@@ -691,7 +1192,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 6
+        "artistId": 6,
+        "color": [
+            "purple"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 160,
@@ -703,7 +1212,19 @@
             "iOS",
             "Android"
         ],
-        "artistId": 6
+        "artistId": 6,
+        "color": [
+            "red"
+        ],
+        "mood": [
+            "simple"
+        ],
+        "season": [
+            "winter"
+        ],
+        "event": [
+            "christmas"
+        ]
     },
     {
         "id": 161,
@@ -715,7 +1236,18 @@
             "iOS",
             "Android"
         ],
-        "artistId": 6
+        "artistId": 6,
+        "color": [
+            "black"
+        ],
+        "mood": [
+            "cute",
+            "simple"
+        ],
+        "season": [],
+        "event": [
+            "halloween"
+        ]
     },
     {
         "id": 162,
@@ -727,7 +1259,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 6
+        "artistId": 6,
+        "color": [
+            "blue"
+        ],
+        "mood": [
+            "soft",
+            "cool"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 163,
@@ -739,7 +1280,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 6
+        "artistId": 6,
+        "color": [
+            "red",
+            "blue"
+        ],
+        "mood": [
+            "cool"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 165,
@@ -751,7 +1301,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 6
+        "artistId": 6,
+        "color": [
+            "red"
+        ],
+        "mood": [
+            "cool"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 166,
@@ -763,7 +1321,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 6
+        "artistId": 6,
+        "color": [
+            "blue",
+            "green"
+        ],
+        "mood": [
+            "cool"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 167,
@@ -775,7 +1342,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 6
+        "artistId": 6,
+        "color": [
+            "blue",
+            "green"
+        ],
+        "mood": [
+            "cool"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 168,
@@ -787,7 +1363,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 6
+        "artistId": 6,
+        "color": [
+            "blue",
+            "green"
+        ],
+        "mood": [
+            "cool",
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 169,
@@ -799,7 +1385,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 6
+        "artistId": 6,
+        "color": [
+            "green"
+        ],
+        "mood": [
+            "soft"
+        ],
+        "season": [
+            "spring"
+        ],
+        "event": []
     },
     {
         "id": 170,
@@ -811,7 +1407,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 6
+        "artistId": 6,
+        "color": [
+            "black"
+        ],
+        "mood": [
+            "cool",
+            "simple"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 171,
@@ -822,7 +1427,14 @@
         "platform": [
             "iOS"
         ],
-        "artistId": 7
+        "artistId": 7,
+        "color": [],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 172,
@@ -834,7 +1446,18 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "yellow",
+            "orange",
+            "red"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 173,
@@ -846,7 +1469,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "green"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 174,
@@ -858,7 +1490,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "yellow"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 175,
@@ -870,7 +1511,19 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "yellow",
+            "purple"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [
+            "winter"
+        ],
+        "event": []
     },
     {
         "id": 176,
@@ -882,7 +1535,18 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "green",
+            "red",
+            "pink"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 177,
@@ -894,7 +1558,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "purple"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 178,
@@ -906,7 +1579,21 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "red",
+            "green"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [
+            "winter"
+        ],
+        "event": [
+            "christmas"
+        ]
     },
     {
         "id": 179,
@@ -918,7 +1605,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "red",
+            "green"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 180,
@@ -930,7 +1627,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "black",
+            "yellow"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 181,
@@ -942,7 +1649,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [
+            "fall"
+        ],
+        "event": []
     },
     {
         "id": 182,
@@ -954,7 +1670,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "pink",
+            "green"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 183,
@@ -966,7 +1692,20 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "pink",
+            "green",
+            "red"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [
+            "summer"
+        ],
+        "event": []
     },
     {
         "id": 184,
@@ -978,7 +1717,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "green"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 185,
@@ -990,7 +1738,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "yellow"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 186,
@@ -1002,7 +1759,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "yellow"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 187,
@@ -1014,7 +1780,19 @@
             "iOS",
             "Android"
         ],
-        "artistId": 8
+        "artistId": 8,
+        "color": [
+            "blue",
+            "green"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [
+            "summer"
+        ],
+        "event": []
     },
     {
         "id": 188,
@@ -1026,7 +1804,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 9
+        "artistId": 9,
+        "color": [
+            "black",
+            "grey"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 189,
@@ -1038,7 +1826,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 9
+        "artistId": 9,
+        "color": [
+            "yellow",
+            "grey"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 190,
@@ -1050,7 +1848,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 9
+        "artistId": 9,
+        "color": [
+            "orange",
+            "red"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 191,
@@ -1062,7 +1870,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 9
+        "artistId": 9,
+        "color": [
+            "black"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 192,
@@ -1074,7 +1891,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 9
+        "artistId": 9,
+        "color": [
+            "grey",
+            "orange"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 193,
@@ -1086,7 +1913,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 9
+        "artistId": 9,
+        "color": [
+            "blue"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 194,
@@ -1098,7 +1934,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 9
+        "artistId": 9,
+        "color": [
+            "blue",
+            "green"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 195,
@@ -1110,7 +1956,16 @@
             "iOS",
             "Android"
         ],
-        "artistId": 9
+        "artistId": 9,
+        "color": [
+            "orange"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 196,
@@ -1122,7 +1977,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 9
+        "artistId": 9,
+        "color": [
+            "yellow",
+            "green"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 197,
@@ -1134,7 +1999,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 9
+        "artistId": 9,
+        "color": [
+            "black",
+            "green"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 198,
@@ -1146,7 +2021,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 9
+        "artistId": 9,
+        "color": [
+            "yellow",
+            "orange"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 199,
@@ -1158,7 +2043,17 @@
             "iOS",
             "Android"
         ],
-        "artistId": 9
+        "artistId": 9,
+        "color": [
+            "red",
+            "orange"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     },
     {
         "id": 200,
@@ -1170,6 +2065,15 @@
             "iOS",
             "Android"
         ],
-        "artistId": 9
+        "artistId": 9,
+        "color": [
+            "black"
+        ],
+        "mood": [
+            "cute",
+            "soft"
+        ],
+        "season": [],
+        "event": []
     }
 ]

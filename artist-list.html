@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>톡스타일 - 테마 전체보기</title>
+    <title>톡스타일 - 테마 작가 리스트</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -81,98 +81,12 @@
         </div>
     </header>
 
-    <main class="theme-list mt-4">
+    <main class="mt-4">
         <div class="container">
-            <nav class="breadcrumb">
-                <a href="./index.html" class="breadcrumb__item">홈</a>
-                <span class="breadcrumb__divider"><i class="fa-solid fa-angle-right"></i></span>
-
-                <a href="./theme-list.html" class="breadcrumb__item--current">전체 테마</a>
-            </nav>
-
-            <h2 class="title mt-4 theme-list__title">테마 전체보기</h2>
-
-            <div class="theme-list__filter-wrap mt-8">
-                <div class="filter-dropdown-group">
-                    <button class="dropdown-btn">인기순 <i class="fa-solid fa-angle-down"></i></button>
-                    <ul class="dropdown-list" data-filter="popular">
-                        <li data-value="daily">일간</li>
-                        <li data-value="weekly">주간</li>
-                        <li data-value="monthly">월간</li>
-                    </ul>
-                </div>
-
-                <div class="filter-dropdown-group">
-                    <button class="dropdown-btn">신착순</button>
-
-                </div>
-
-                <div class="filter-dropdown-group">
-                    <button class="dropdown-btn">색상별 <i class="fa-solid fa-angle-down"></i></button>
-                    <ul class="dropdown-list" data-filter="color">
-                        <li data-value="red">빨강</li>
-                        <li data-value="orange">주황</li>
-                        <li data-value="yellow">노랑</li>
-                        <li data-value="green">초록</li>
-                        <li data-value="blue">블루</li>
-                        <li data-value="purple">보라</li>
-                        <li data-value="pink">핑크</li>
-                        <li data-value="black">블랙</li>
-                        <li data-value="grey">회색</li>
-                    </ul>
-                </div>
-
-                <div class="filter-dropdown-group">
-                    <button class="dropdown-btn">무드별 <i class="fa-solid fa-angle-down"></i></button>
-                    <ul class="dropdown-list" data-filter="mood">
-                        <li data-value="cute">귀여움</li>
-                        <li data-value="simple">심플</li>
-                        <li data-value="soft">부드러움</li>
-                        <li data-value="retro">레트로</li>
-                        <li data-value="cool">멋짐</li>
-                    </ul>
-                </div>
-
-                <div class="filter-dropdown-group">
-                    <button class="dropdown-btn">계절별 <i class="fa-solid fa-angle-down"></i></button>
-                    <ul class="dropdown-list" data-filter="season">
-                        <li data-value="spring">봄</li>
-                        <li data-value="summer">여름</li>
-                        <li data-value="fall">가을</li>
-                        <li data-value="winter">겨울</li>
-                    </ul>
-                </div>
-
-                <div class="filter-dropdown-group">
-                    <button class="dropdown-btn">이벤트별 <i class="fa-solid fa-angle-down"></i></button>
-                    <ul class="dropdown-list" data-filter="event">
-                        <li data-value="christmas">크리스마스</li>
-                        <li data-value="halloween">할로윈</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="theme-list__card-wrap mt-2">
-                <div class="card-theme-grid"></div>
-            </div>
-
-            <div class="pagination mt" id="pagination">
-                <button class="pagination__btn pagination__first" data-page="first">
-                    <i class="fa-solid fa-angles-left"></i>
-                </button>
-                <button class="pagination__btn pagination__prev" data-page="prev">
-                    <i class="fa-solid fa-angle-left"></i>
-                </button>
-                <div class="pagination__pages"></div>
-                <button class="pagination__btn pagination__next" data-page="next">
-                    <i class="fa-solid fa-angle-right"></i>
-                </button>
-                <button class="pagination__btn pagination__next" data-page="last">
-                    <i class="fa-solid fa-angles-right"></i>
-                </button>
-            </div>
+            <div id="breadcrumb"></div>
         </div>
     </main>
+
 
     <footer class="footer" id="footer">
         <div class="container footer__container">
@@ -222,7 +136,7 @@
 
     <script src="./assets/js/jquery-1.12.3.js"></script>
     <script src="./assets/js/common.js"></script>
-    <script src="./assets/js/theme-list.js"></script>
+    <script src="./assets/js/artist-list.js"></script>
 </body>
 
 </html>

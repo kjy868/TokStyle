@@ -2523,3 +2523,45 @@ button {
   padding: 2.5rem 0;
   color: #818181;
 }
+
+.theme-list__filter-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 0.75rem;
+}
+.theme-list__filter-wrap button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+.theme-list__filter-wrap .filter-dropdown,
+.theme-list__filter-wrap .btn-filter {
+  border: 1px solid #aeaeae;
+  color: #aeaeae;
+  border-radius: 3.125rem;
+  padding: 0.3125rem 0.9375rem;
+}
+.theme-list__filter-wrap .filter-dropdown option,
+.theme-list__filter-wrap .btn-filter option {
+  border: none;
+  outline: none;
+  background: none;
+  color: #818181;
+  background-color: #dadada;
+}
+.theme-list__filter-wrap .filter-dropdown.active,
+.theme-list__filter-wrap .btn-filter.active {
+  border: 1px solid #2c2c2c;
+}
