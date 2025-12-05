@@ -5,28 +5,93 @@
 .theme-list__filter-wrap {
     @include u.flex();
     gap: u.rem(12);
+    position: relative;
+    z-index: 10;
 
-    button {
-        @include u.btnReset();
-        cursor: pointer;
-    }
+    .filter-dropdown-group {
+        position: relative;
 
-    .filter-dropdown,
-    .btn-filter {
-        border: 1px solid v.$Color_Grey;
-        color: v.$Color_Grey;
-        border-radius: u.rem(50);
-        padding: u.rem(5) u.rem(15);
-
-        option {
-            @include u.btnReset();
-            color: v.$Color_D_Grey;
-            background-color: v.$Color_L_Grey;
+        &.active {
+            .dropdown-list {
+                opacity: 1 !important;
+                visibility: visible !important;
+                transform: translateY(0) !important;
+                max-height: 25rem !important;
+                overflow: visible !important;
+            }
         }
     }
 
-    .filter-dropdown.active,
-    .btn-filter.active {
-        border: 1px solid v.$Color_Conts_Black;
+    .dropdown-btn {
+        background-color: v.$Color_White;
+        @include u.btnReset();
+        border: 1px solid v.$Color_Grey;
+        border-radius: u.rem(50);
+        color: v.$Color_D_Grey;
+        @include u.flex($alignItems: center);
+        gap: u.rem(6);
+        padding: u.rem(5) u.rem(15);
+        transition: all 0.25s;
+        white-space: nowrap;
+        font-size: u.rem(16);
+
+        &:hover {
+            border-color: v.$Color_Foot_Black;
+            color: v.$Color_Foot_Black;
+            font-weight: 600;
+        }
+    }
+
+    .dropdown-list {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        min-width: u.rem(120);
+        background-color: v.$Color_White;
+        border: 1px solid v.$Color_Silver;
+        border-radius: u.rem(10);
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(u.rem(-10));
+        transition: opacity 0.25s ease, visibility 0.25s ease, transform 0.25s ease;
+        max-height: 0;
+        overflow: hidden;
+        box-shadow: 0 u.rem(4) u.rem(18) rgba(0, 0, 0, 0.08);
+        margin-top: u.rem(8);
+        z-index: 100;
+
+        li {
+            padding: u.rem(10) u.rem(14);
+            cursor: pointer;
+            font-size: u.rem(14);
+            background: v.$Color_White;
+            transition: background 0.2s;
+            position: relative;
+
+            &:hover {
+                background-color: v.$Color_Silver;
+            }
+        }
+    }
+
+    @include u.responsive(lg) {
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        gap: u.rem(10);
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        .filter-dropdown-group {
+            flex-shrink: 0;
+        }
+
+        .dropdown-btn {
+            white-space: nowrap;
+        }
     }
 }

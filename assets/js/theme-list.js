@@ -84,10 +84,27 @@ $(function () {
         render();
     }
 
-    // 드롭다운 토글
+    // 드롭다운 버튼 클릭
     $(".theme-list__filter-wrap").on("click", ".dropdown-btn", function (e) {
         e.stopPropagation();
         const $parent = $(this).parent();
+        const $list = $parent.find(".dropdown-list");
+
+        // 신착순 버튼
+        if ($list.length === 0) {
+            selectedFilters = {
+                popular: null,
+                sort: "recent",
+                color: null,
+                mood: null,
+                season: null,
+                event: null
+            };
+            applyFilters();
+            return;
+        }
+
+        // 드롭다운이 있는 경우 토글
         const wasOpen = $parent.hasClass("active");
 
         $(".filter-dropdown-group").removeClass("active");
@@ -104,7 +121,16 @@ $(function () {
         const value = $(this).data("value");
         const text = $(this).text();
 
-        $list.closest(".filter-dropdown-group").find(".dropdown-btn").text(text + " ▾");
+        // 버튼 텍스트 업데이트 (아이콘 유지)
+        const $btn = $list.closest(".filter-dropdown-group").find(".dropdown-btn");
+        const icon = $btn.find("i");
+        if (icon.length > 0) {
+            $btn.html(text + ' ');
+            $btn.append(icon);
+        } else {
+            $btn.text(text);
+        }
+
         $(".filter-dropdown-group").removeClass("active");
 
         selectedFilters = {
