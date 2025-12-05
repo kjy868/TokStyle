@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>톡스타일 - FAQ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <h1 class="header__logo">
+                <a href="./index.html">
+                    <img src="./assets/images/header__Logo.png" alt="톡스타일">
+                </a>
+            </h1>
+
+            <!-- 네비게이션 -->
+            <nav class="header__nav" id="header__nav">
+                <ul class="header__menu">
+                    <li class="header__menu-list">
+                        <a href="./theme-list.html">전체 테마</a>
+                    </li>
+                    <li class="header__menu-list">
+                        <a href="./artist-list.html">작가</a>
+                    </li>
+                    <li class="header__menu-list">
+                        <a href="./event.html">이벤트</a>
+                    </li>
+                    <li class="header__menu-list">
+                        <a href="./faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- 오른쪽 그룹 -->
+            <div class="header__right">
+                <!-- 검색창(PC) -->
+                <div class="header__search">
+                    <input type="text" placeholder="검색">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <!-- 모바일 햄버거, 검색 버튼 -->
+                <span class="header__mobile-btns">
+                    <button class="search__icon" id="search__icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <button type="button" class="hamburger" id="hamburger">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </span>
+            </div>
+
+            <!-- 햄버거/검색 오버레이 -->
+            <div class="header__bg" id="header__bg"></div>
+
+            <!-- 검색창 -->
+            <div class="search__wrap" id="search__wrap">
+                <div class="search__input-group">
+                    <input type="text" placeholder="검색어를 입력하세요">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+                <h3 class="search__title">#검색추천</h3>
+                <div class="search__tags">
+                    <button class="tag">토마토</button>
+                    <button class="tag">겨울</button>
+                    <button class="tag">크리스마스</button>
+                    <button class="tag">여름</button>
+                    <button class="tag">음식</button>
+                    <button class="tag">강아지</button>
+                    <button class="tag">고양이</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="faq mt-4">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="./index.html" class="breadcrumb__item">홈</a>
+                <span class="breadcrumb__divider"><i class="fa-solid fa-angle-right"></i></span>
+
+                <a href="./faq.html" class="breadcrumb__item--current">FAQ</a>
+            </nav>
+
+            <h2 class="title title--no-margin mt-4">FAQ</h2>
+
+            <div class="faq__list mt-5">
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h4>Q. 카카오톡 테마가 무엇인가요?</h4>
+                        <i class="fa-solid fa-angle-down faq__icon"></i>
+                    </div>
+
+                    <div class="faq__answer">
+                        <p>
+                            카카오톡(메신저 앱)의 디자인과 분위기를 바꿀 수 있는 스킨/꾸미기 기능입니다.<br>
+                            카카오톡은 기본적으로 노란색 + 갈색의 심플한 디자인을 가지고 있는데,<br>
+                            테마를 적용하면 배경색, 말풍선 모양과 색상, 버튼 아이콘, 글씨 색 등 카카오톡 UI의 시각적 요소가 달라집니다.<br>
+                            즉, 앱의 외형 디자인(스킨)을 입히는 거랍니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h4>Q. 카카오톡 테마는 어떻게 적용하나요?</h4>
+                        <i class="fa-solid fa-angle-down faq__icon"></i>
+                    </div>
+
+                    <div class="faq__answer">
+                        <p>
+                            1. 테마 다운로드 및 적용 방법<br>
+                            안드로이드: APK 파일 다운로드 후 '출처 허용' 설정 → 설치 → 카카오톡 설정에서 테마 적용.<br>
+                            아이폰: .ktheme 파일 다운로드 → 사파리에서 '나와의 채팅'으로 공유 → 파일 실행 후 적용.<br>
+                            2. 주의사항<br>
+                            OS 호환성: 반드시 해당 OS(안드로이드/iOS)에 맞는 파일을 다운로드하세요.<br>
+                            권한 설정: 안드로이드의 경우 '출처 허용' 설정이 필수입니다.<br>
+                            저작권: 일부 테마는 2차 수정 및 재배포가 제한될 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h4>Q. 안드로이드에서 안전하지 않은 앱 차단됨 경고문이 떠요.</h4>
+                        <i class="fa-solid fa-angle-down faq__icon"></i>
+                    </div>
+
+                    <div class="faq__answer">
+                        <p>
+                            안드로이드 기기의 설정 > 보안 및 개인정보 (혹은 유사한 메뉴)에서 "알 수 없는 앱 설치 허용" 옵션을 활성화해야 합니다.<br>
+                            이 설정을 활성화하면 앱 스토어가 아닌 다른 경로에서 다운로드한 앱도 설치할 수 있게 됩니다.<br>
+                            또한, "안전하지 않은 앱 차단됨" 경고창에서 "무시하고 설치"를 선택해주셔야합니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h4>Q. 예전에 설치했던 테마를 다시 적용하고 싶어요.</h4>
+                        <i class="fa-solid fa-angle-down faq__icon"></i>
+                    </div>
+
+                    <div class="faq__answer">
+                        <p>
+                            원하는 테마의 설치 되어 있는 앱에 들어가셔서 테마 적용하기 버튼을 눌러주시면 됩니다.<br>
+                            또는 카카오톡 설정 > 테마 메뉴에서 테마를 적용하실 수도 있습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h4>Q. 다운로드 링크 오류가 발생해요.</h4>
+                        <i class="fa-solid fa-angle-down faq__icon"></i>
+                    </div>
+
+                    <div class="faq__answer">
+                        <p>
+                            다른 브라우저를 사용하거나 링크를 복사하여 붙여넣으셔야 합니다.<br>
+                            또는 브라우저 캐시를 삭제 후 시도해보시길 바랍니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h4>Q. 테마 파일이 손상되었을 때 어떻게 하나요?</h4>
+                        <i class="fa-solid fa-angle-down faq__icon"></i>
+                    </div>
+
+                    <div class="faq__answer">
+                        <p>
+                            기존에 있는 파일을 삭제하고 다시 다운로드 받아주셔야 합니다.<br>
+                            *파일 다운로드 출처의 신뢰성을 확인하셔야 합니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h4>Q. 설치까지 다 했는데 테마가 적용이 안 돼요.</h4>
+                        <i class="fa-solid fa-angle-down faq__icon"></i>
+                    </div>
+
+                    <div class="faq__answer">
+                        <p>
+                            카카오톡 > 설정 > 테마 에서 직접 테마를 적용해주시길 바랍니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h4>Q. 테마는 적용이 되는데 채팅창 배경화면만 테마 배경이 아니에요.</h4>
+                        <i class="fa-solid fa-angle-down faq__icon"></i>
+                    </div>
+
+                    <div class="faq__answer">
+                        <p>
+                            카카오톡 더보기 > 설정 > 화면 > 배경화면에 가셔서 “테마 배경 적용” 또는 “모든 채팅방에 적용”을 눌러주시면 됩니다.<br>
+                            만약 안내대로 진행해도 적용이 되지 않는다면, 테마 작가님께 문의 부탁드립니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="container footer__container">
+            <div class="footer__left">
+                <h1 class="footer__logo">
+                    <a href="#footer">
+                        <img src="./assets/images/footer__logo.png" alt="톡스타일">
+                    </a>
+                </h1>
+                <p class="footer__copyright">
+                    © 2025 Project Tokstyle Corp.<br>
+                    모든 테마의 저작권은 모두 각 테마의 저작권자에게 있습니다.<br>
+                    테마 사용에 대한 라이센스 문의는 저작권자에게 문의해주세요.
+                </p>
+                <ul class="footer__policy">
+                    <li><a href="#footer">이용약관</a></li>
+                    <li><a href="#footer">개인정보처리방침</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__right">
+                <ul class="footer__menu">
+                    <li><a href="#footer">테마 제보하기</a></li>
+                    <li><a href="#footer">자주 묻는 질문</a></li>
+                </ul>
+
+                <ul class="footer__sns">
+                    <li>
+                        <a href="#footer">
+                            <img src="./assets/images/footerSNS_X.png" alt="엑스">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#footer">
+                            <img src="./assets/images/footerSNS_instagram.png" alt="인스타그램">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#footer">
+                            <img src="./assets/images/footerSNS_facebook.png" alt="페이스북">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./assets/js/jquery-1.12.3.js"></script>
+    <script src="./assets/js/common.js"></script>
+    <script src="./assets/js/faq.js"></script>
+</body>
+
+</html>

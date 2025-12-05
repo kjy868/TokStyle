@@ -78,13 +78,8 @@
 
     @include u.responsive(lg) {
         display: flex;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
+        flex-wrap: wrap;
         gap: u.rem(10);
-
-        &::-webkit-scrollbar {
-            display: none;
-        }
 
         .filter-dropdown-group {
             flex-shrink: 0;

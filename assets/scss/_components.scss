@@ -35,6 +35,10 @@
         color: v.$Color_Foot_Black;
         font-weight: 700;
     }
+
+    @include u.responsive(md) {
+        display: none
+    }
 }
 
 // pagination
@@ -92,11 +96,16 @@
         font-size: u.rem(18);
         font-weight: 400;
         color: v.$Color_D_Grey;
+        flex-wrap: wrap;
 
         &--active {
             font-weight: 600;
             color: v.$Color_Conts_Black;
         }
+    }
+
+    &__divider {
+        color: v.$Color_D_Grey;
     }
 }
 

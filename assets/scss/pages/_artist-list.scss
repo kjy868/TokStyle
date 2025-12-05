@@ -1,0 +1,112 @@
+@use '../variables' as v;
+@use '../utils.scss' as u;
+@use '../layout' as l;
+
+.artist-list {
+    &__card-wrap {
+        .card-artist-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: u.rem(16);
+
+            @include u.responsive(lg) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            @include u.responsive(sm) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+}
+
+.card-artist {
+    border: 1px solid v.$Color_Silver;
+    border-radius: u.rem(20);
+    overflow: hidden;
+    background-color: v.$Color_White;
+    aspect-ratio: 480 / 286;
+
+    &__img-wrap {
+        width: 100%;
+        height: calc(100% - u.rem(92));
+        object-fit: cover;
+        display: block;
+
+        img {
+            @include u.img();
+        }
+
+        @include u.responsive(md) {
+            height: calc(100% - u.rem(64));
+        }
+    }
+
+    &__info {
+        padding: u.rem(20);
+        background-color: #fff;
+        height: u.rem(92);
+        @include u.flex(flex, space-between, center);
+
+        @include u.responsive(md) {
+            height: u.rem(64);
+        }
+    }
+
+    &__left {
+        @include u.flex($alignItems: center);
+        gap: u.rem(15);
+    }
+
+    &__avatar {
+        width: u.rem(50);
+        height: u.rem(50);
+        border-radius: 50%;
+        overflow: hidden;
+        border: 1px solid v.$Color_Silver;
+
+        img {
+            @include u.img();
+        }
+
+        @include u.responsive(md) {
+            width: u.rem(40);
+            height: u.rem(40);
+        }
+    }
+
+    &__name {
+        font-weight: 500;
+        font-size: u.rem(20);
+        color: v.$Color_Conts_Black;
+
+        @include u.responsive(md) {
+            font-size: u.rem(18);
+        }
+
+        @include u.responsive(sm) {
+            font-size: u.rem(16);
+        }
+    }
+
+    &__bio {
+        font-size: u.rem(16);
+        font-weight: 300;
+        color: v.$Color_Foot_Black;
+
+        @include u.responsive(md) {
+            display: none;
+        }
+    }
+
+    &__count {
+        padding: u.rem(2) u.rem(10);
+        background-color: v.$Color_ExtraL_Primary;
+        border-radius: u.rem(50);
+        font-size: u.rem(16);
+
+        @include u.responsive(md) {
+            font-size: u.rem(14);
+        }
+    }
+}

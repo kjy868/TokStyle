@@ -81,9 +81,47 @@
         </div>
     </header>
 
-    <main class="mt-4">
+    <main class="artist-list mt-4">
         <div class="container">
-            <div id="breadcrumb"></div>
+            <nav class="breadcrumb">
+                <a href="./index.html" class="breadcrumb__item">홈</a>
+                <span class="breadcrumb__divider"><i class="fa-solid fa-angle-right"></i></span>
+
+                <a href="./artist-list.html" class="breadcrumb__item--current">작가</a>
+            </nav>
+
+            <h2 class="title title--no-margin mt-4 artist-list__title">테마 작가 리스트</h2>
+
+            <section class="filter-tabs mt-8">
+                <button class="filter-tabs__btn filter-tabs__btn--active" data-sort="popular">인기순</button>
+                <span class="filter-tabs__divider">|</span>
+                <button class="filter-tabs__btn" data-sort="recent">최신순</button>
+                <span class="filter-tabs__divider">|</span>
+                <button class="filter-tabs__btn" data-sort="kor">ㄱㄴㄷ순</button>
+                <span class="filter-tabs__divider">|</span>
+                <button class="filter-tabs__btn" data-sort="abc">ABC순</button>
+            </section>
+
+            <section class="artist-list__card-wrap mt-2">
+                <div class="card-artist-grid"></div>
+            </section>
+
+
+            <div class="pagination mt" id="pagination">
+                <button class="pagination__btn pagination__first" data-page="first">
+                    <i class="fa-solid fa-angles-left"></i>
+                </button>
+                <button class="pagination__btn pagination__prev" data-page="prev">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <div class="pagination__pages"></div>
+                <button class="pagination__btn pagination__next" data-page="next">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+                <button class="pagination__btn pagination__next" data-page="last">
+                    <i class="fa-solid fa-angles-right"></i>
+                </button>
+            </div>
         </div>
     </main>
 

@@ -82,6 +82,7 @@ $(function () {
 
         currentPage = 1;
         render();
+        window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
     // 드롭다운 버튼 클릭
@@ -121,7 +122,31 @@ $(function () {
         const value = $(this).data("value");
         const text = $(this).text();
 
-        // 버튼 텍스트 업데이트 (아이콘 유지)
+        // 모든 드롭다운 버튼 텍스트 초기화
+        $(".filter-dropdown-group").each(function () {
+            const $btn = $(this).find(".dropdown-btn");
+            const $currentList = $(this).find(".dropdown-list");
+            const currentFilter = $currentList.data("filter");
+
+            // 현재 선택한 필터가 아닌 경우만 초기화
+            if (currentFilter !== filter) {
+                const icon = $btn.find("i");
+                let defaultText = "";
+
+                if (currentFilter === "popular") defaultText = "인기순";
+                else if (currentFilter === "color") defaultText = "색상별";
+                else if (currentFilter === "mood") defaultText = "무드별";
+                else if (currentFilter === "season") defaultText = "계절별";
+                else if (currentFilter === "event") defaultText = "이벤트별";
+
+                if (defaultText && icon.length > 0) {
+                    $btn.html(defaultText + ' ');
+                    $btn.append(icon);
+                }
+            }
+        });
+
+        // 선택한 버튼 텍스트 업데이트 (아이콘 유지)
         const $btn = $list.closest(".filter-dropdown-group").find(".dropdown-btn");
         const icon = $btn.find("i");
         if (icon.length > 0) {
@@ -190,6 +215,7 @@ $(function () {
         buildPagination(filteredThemes.length, itemsPerPage, currentPage, function (newPage) {
             currentPage = newPage;
             render();
+            window.scrollTo({ top: 0, behavior: "smooth" });
         });
     }
 });

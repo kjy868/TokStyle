@@ -79,6 +79,26 @@ $overlay-bg: rgba(0, 0, 0, 0.6);
     @include u.responsive(sm) {
         font-size: u.rem(26);
     }
+
+    &--no-margin {
+        margin-bottom: 0;
+    }
+}
+
+.sub-title {
+    font-family: 'Paperozi';
+    font-weight: 600;
+    font-size: u.rem(30);
+    margin-bottom: u.rem(20);
+    color: $Color_Conts_Black;
+
+    @include u.responsive(lg) {
+        font-size: u.rem(26);
+    }
+
+    @include u.responsive(sm) {
+        font-size: u.rem(22);
+    }
 }
 
 // spacing

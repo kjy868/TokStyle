@@ -1,0 +1,10 @@
+@use '../variables' as v;
+@use '../utils.scss' as u;
+@use '../layout' as l;
+
+.faq {
+    &__list {
+        width: 100%;
+
+    }
+}
