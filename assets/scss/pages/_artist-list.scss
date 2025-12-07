@@ -27,6 +27,14 @@
     background-color: v.$Color_White;
     aspect-ratio: 480 / 286;
 
+    @include u.responsive(md) {
+        aspect-ratio: 210 / 213;
+    }
+
+    @include u.responsive(sm) {
+        aspect-ratio: 480 / 300;
+    }
+
     &__img-wrap {
         width: 100%;
         height: calc(100% - u.rem(92));

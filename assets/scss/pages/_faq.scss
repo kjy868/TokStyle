@@ -5,6 +5,58 @@
 .faq {
     &__list {
         width: 100%;
+    }
 
+    &__question {
+        width: 100%;
+        padding: u.rem(28) u.rem(10);
+        @include u.flex(flex, space-between, center);
+        gap: u.rem(10);
+        color: v.$Color_Conts_Black;
+        font-size: u.rem(24);
+        font-weight: 500;
+        word-break: keep-all;
+        border-bottom: 1px solid v.$Color_L_Grey;
+        cursor: pointer;
+
+        @include u.responsive(lg) {
+            font-size: u.rem(20);
+        }
+
+        @include u.responsive(md) {
+            font-size: u.rem(18);
+        }
+
+        @include u.responsive(sm) {
+            padding: u.rem(20) 0;
+            transition: transform 0.3s ease;
+        }
+    }
+
+    &__icon {
+        color: v.$Color_Grey;
+        transition: transform 0.3s ease;
+
+        &.is-open {
+            transform: rotate(180deg);
+        }
+    }
+
+    &__answer {
+        padding: u.rem(28) u.rem(28);
+        background-color: v.$Color_Silver;
+        color: v.$Color_D_Grey;
+        font-weight: 400;
+        font-size: u.rem(22);
+        word-break: keep-all;
+        display: none;
+
+        @include u.responsive(lg) {
+            font-size: u.rem(18);
+        }
+
+        @include u.responsive(md) {
+            font-size: u.rem(16);
+        }
     }
 }

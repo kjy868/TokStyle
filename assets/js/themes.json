@@ -7,7 +7,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -31,7 +31,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -54,7 +54,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -74,7 +74,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -96,7 +96,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -116,7 +116,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -138,7 +138,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -158,7 +158,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -178,7 +178,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -198,7 +198,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -218,7 +218,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -238,7 +238,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -258,7 +258,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -278,7 +278,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -298,7 +298,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -318,7 +318,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -339,7 +339,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -362,7 +362,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -382,7 +382,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -402,7 +402,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -422,7 +422,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -442,7 +442,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -462,7 +462,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -482,7 +482,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -504,7 +504,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -524,7 +524,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 1,
         "color": [
@@ -776,7 +776,7 @@
         "free": true,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 3,
         "color": [
@@ -795,7 +795,7 @@
         "thumbnail": "./assets/images/themes/artist3/theme02.webp",
         "free": true,
         "platform": [
-            "Android"
+            "and"
         ],
         "artistId": 3,
         "color": [
@@ -815,7 +815,7 @@
         "free": true,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 3,
         "color": [
@@ -837,7 +837,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 4,
         "color": [
@@ -857,7 +857,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 4,
         "color": [
@@ -877,7 +877,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 4,
         "color": [
@@ -897,7 +897,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 4,
         "color": [
@@ -917,7 +917,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 4,
         "color": [
@@ -937,7 +937,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 4,
         "color": [
@@ -957,7 +957,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 4,
         "color": [
@@ -978,7 +978,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 4,
         "color": [
@@ -998,7 +998,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 5,
         "color": [
@@ -1018,7 +1018,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 5,
         "color": [
@@ -1041,7 +1041,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 5,
         "color": [
@@ -1064,7 +1064,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 5,
         "color": [
@@ -1106,7 +1106,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 5,
         "color": [
@@ -1127,7 +1127,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 5,
         "color": [
@@ -1148,7 +1148,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 5,
         "color": [
@@ -1170,7 +1170,7 @@
         "free": true,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 6,
         "color": [
@@ -1190,7 +1190,7 @@
         "free": true,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 6,
         "color": [
@@ -1210,7 +1210,7 @@
         "free": true,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 6,
         "color": [
@@ -1234,7 +1234,7 @@
         "free": true,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 6,
         "color": [
@@ -1257,7 +1257,7 @@
         "free": true,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 6,
         "color": [
@@ -1278,7 +1278,7 @@
         "free": true,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 6,
         "color": [
@@ -1299,7 +1299,7 @@
         "free": true,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 6,
         "color": [
@@ -1319,7 +1319,7 @@
         "free": true,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 6,
         "color": [
@@ -1340,7 +1340,7 @@
         "free": true,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 6,
         "color": [
@@ -1361,7 +1361,7 @@
         "free": true,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 6,
         "color": [
@@ -1383,7 +1383,7 @@
         "free": true,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 6,
         "color": [
@@ -1405,7 +1405,7 @@
         "free": true,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 6,
         "color": [
@@ -1444,7 +1444,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1467,7 +1467,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1488,7 +1488,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1509,7 +1509,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1533,7 +1533,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1556,7 +1556,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1577,7 +1577,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1603,7 +1603,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1625,7 +1625,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1647,7 +1647,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [],
@@ -1668,7 +1668,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1690,7 +1690,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1715,7 +1715,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1736,7 +1736,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1757,7 +1757,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1778,7 +1778,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 8,
         "color": [
@@ -1802,7 +1802,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 9,
         "color": [
@@ -1824,7 +1824,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 9,
         "color": [
@@ -1846,7 +1846,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 9,
         "color": [
@@ -1868,7 +1868,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 9,
         "color": [
@@ -1889,7 +1889,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 9,
         "color": [
@@ -1911,7 +1911,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 9,
         "color": [
@@ -1932,7 +1932,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 9,
         "color": [
@@ -1954,7 +1954,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 9,
         "color": [
@@ -1975,7 +1975,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 9,
         "color": [
@@ -1997,7 +1997,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 9,
         "color": [
@@ -2019,7 +2019,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 9,
         "color": [
@@ -2041,7 +2041,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 9,
         "color": [
@@ -2063,7 +2063,7 @@
         "free": false,
         "platform": [
             "iOS",
-            "Android"
+            "and"
         ],
         "artistId": 9,
         "color": [

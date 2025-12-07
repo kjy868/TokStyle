@@ -1,3 +1,89 @@
 @use '../variables' as v;
 @use '../utils.scss' as u;
 @use '../layout' as l;
+
+.artist-detail {
+    &__bg {
+        width: 100%;
+        height: u.rem(520);
+        background-image: url(../images/artists/artist5-bg.webp);
+        @include u.bgimg();
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: u.rem(520);
+
+            background: linear-gradient(to top,
+                    rgba(0, 0, 0, 0.8) 0%,
+                    rgba(0, 0, 0, 0.3) 75%);
+            mix-blend-mode: multiply;
+            pointer-events: none;
+        }
+    }
+
+    &__container {
+        margin-top: u.rem(-60);
+        z-index: 2;
+        position: relative
+    }
+
+    &__profile {
+        @include u.flex(flex, center, center, column);
+    }
+
+    &__icon {
+        width: u.rem(120);
+        height: u.rem(120);
+        border-radius: 50%;
+        border: 1px solid v.$Color_Silver;
+        background-image: url(../images/artists/artist5.webp);
+        @include u.bgimg();
+    }
+
+    &__name {
+        font-family: 'Paperozi';
+        font-size: u.rem(32);
+        font-weight: 500;
+        text-align: center;
+        color: v.$Color_Head_Black;
+
+        @include u.responsive(lg) {
+            font-size: u.rem(30);
+        }
+
+        @include u.responsive(sm) {
+            font-size: u.rem(28);
+        }
+    }
+
+    &__bio {
+        margin-top: u.rem(15);
+        text-align: center;
+        font-family: 'pretendard';
+        color: v.$Color_Conts_Black;
+        font-size: u.rem(20);
+        font-weight: 300;
+
+        @include u.responsive(lg) {
+            font-size: u.rem(18);
+        }
+    }
+
+    &__sns {
+        @include u.flex(flex, center, center);
+        gap: u.rem(50);
+
+        @include u.responsive(sm) {
+            gap: u.rem(30);
+        }
+    }
+
+    &__line {
+        border: 5px solid v.$Color_Silver;
+    }
+}

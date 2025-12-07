@@ -1,3 +1,172 @@
 @use '../variables' as v;
 @use '../utils.scss' as u;
 @use '../layout' as l;
+
+.event-page {
+    &__list {
+        width: 100%;
+        @include u.flex($flexDirection: column);
+        gap: u.rem(20);
+    }
+
+    &__container {
+        width: 100%;
+        max-width: u.rem(1000);
+        margin: 0 auto;
+    }
+
+    &__item {
+        width: 100%;
+        border-radius: u.rem(20);
+        overflow: hidden;
+        font-family: 'Paperozi';
+        @include u.bgimg();
+    }
+
+    &__text-wrap {
+        padding: u.rem(50) u.rem(30);
+
+        @include u.responsive(md) {
+            padding: u.rem(40) u.rem(30);
+        }
+
+        @include u.responsive(sm) {
+            padding: u.rem(30) u.rem(20);
+        }
+    }
+
+    &__item-subtitle {
+        font-weight: 500;
+        font-size: u.rem(24);
+
+        @include u.responsive(lg) {
+            font-size: u.rem(22);
+        }
+
+        @include u.responsive(md) {
+            font-size: u.rem(20);
+        }
+
+        @include u.responsive(sm) {
+            font-size: u.rem(16);
+        }
+    }
+
+    &__item-title {
+        font-weight: 600;
+        font-size: u.rem(36);
+
+        @include u.responsive(lg) {
+            font-size: u.rem(26);
+        }
+
+        @include u.responsive(md) {
+            font-size: u.rem(24);
+        }
+
+        @include u.responsive(sm) {
+            font-size: u.rem(18);
+        }
+    }
+
+    &__item-date {
+        font-weight: 400;
+        font-size: u.rem(20);
+        margin-top: u.rem(20);
+
+        @include u.responsive(lg) {
+            font-size: u.rem(18);
+            margin-top: u.rem(10);
+        }
+
+        @include u.responsive(md) {
+            font-size: u.rem(16);
+        }
+    }
+
+    &__item01,
+    &__item04,
+    &__item05 {
+        .event-page__container {
+            @include u.flex(flex, start, center);
+        }
+    }
+
+    &__item02,
+    &__item03,
+    &__item06 {
+        .event-page__container {
+            @include u.flex(flex, end, center);
+        }
+    }
+
+    &__item01 {
+        background-image: url(../images/event/event-item01.webp);
+        color: v.$Color_White;
+    }
+
+    &__item02 {
+        background-image: url(../images/event/event-item02.webp);
+        color: v.$Color_Conts_Black;
+    }
+
+    &__item03 {
+        background-image: url(../images/event/event-item03.webp);
+        color: v.$Color_Conts_Black;
+    }
+
+    &__item04 {
+        background-image: url(../images/event/event-item04.webp);
+        color: v.$Color_White;
+    }
+
+    &__item05 {
+        background-image: url(../images/event/event-item05.webp);
+        color: v.$Color_Conts_Black;
+    }
+
+    &__item06 {
+        background-image: url(../images/event/event-item06.webp);
+        color: v.$Color_Conts_Black;
+    }
+
+    &__btn-wrap {
+        width: 100%;
+        @include u.flex(flex, center, center)
+    }
+
+    &__btn {
+        padding: u.rem(15) u.rem(100);
+        @include u.btnReset();
+        border-radius: u.rem(50);
+        border: 1px solid v.$Color_Btn_Black;
+        color: v.$Color_Btn_Black;
+        font-size: u.rem(18);
+        font-weight: 700;
+        font-family: 'Pretendard';
+        transition:
+            background-color 0.25s ease,
+            color 0.25s ease,
+            border-color 0.25s ease,
+            box-shadow 0.25s ease,
+            transform 0.12s ease;
+
+        &:hover {
+            background-color: v.$Color_Primary;
+            border: 1px solid v.$Color_Primary;
+        }
+
+        &:active {
+            transform: scale(0.97);
+            box-shadow: 0 u.rem(2) u.rem(6) rgba(0, 0, 0, 0.25);
+            background-color: v.$Color_Primary;
+            border-color: v.$Color_Primary;
+            color: v.$Color_White;
+        }
+
+        @include u.responsive(sm) {
+            padding: u.rem(15) u.rem(80);
+            font-size: u.rem(16);
+        }
+    }
+}

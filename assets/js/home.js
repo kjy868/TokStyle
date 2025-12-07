@@ -78,7 +78,7 @@ $(document).ready(function () {
                 : '이름 없음';
 
         return `
-        <a href="#" class="artist__card" style="background-image:url('${icon}');">
+        <a href="artist-detail.html" class="artist__card" style="background-image:url('${icon}');">
             <p>${name}</p>
         </a>
         `;

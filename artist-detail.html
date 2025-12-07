@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>톡스타일 - 테마 작가 리스트</title>
+    <title>톡스타일 - 디도리</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -81,47 +81,78 @@
         </div>
     </header>
 
-    <main class="artist-list mt-4">
-        <div class="container">
-            <nav class="breadcrumb">
-                <a href="./index.html" class="breadcrumb__item">홈</a>
-                <span class="breadcrumb__divider"><i class="fa-solid fa-angle-right"></i></span>
 
-                <a href="./artist-list.html" class="breadcrumb__item--current">작가</a>
-            </nav>
+    <main class="artist-detail">
+        <div class="artist-detail__bg">
+            <div class="container">
+                <nav class="breadcrumb mt-4">
+                    <a href="./index.html" class="breadcrumb__item">홈</a>
+                    <span class="breadcrumb__divider"><i class="fa-solid fa-angle-right"></i></span>
 
-            <h2 class="title title--no-margin mt-4 artist-list__title">테마 작가 리스트</h2>
+                    <a href="./artist-list.html" class="breadcrumb__item">작가</a>
+                    <span class="breadcrumb__divider"><i class="fa-solid fa-angle-right"></i></span>
 
-            <section class="filter-tabs mt-8">
-                <button class="filter-tabs__btn filter-tabs__btn--active" data-sort="popular">인기순</button>
-                <span class="filter-tabs__divider">|</span>
-                <button class="filter-tabs__btn" data-sort="recent">최신순</button>
-                <span class="filter-tabs__divider">|</span>
-                <button class="filter-tabs__btn" data-sort="kor">ㄱㄴㄷ순</button>
-                <span class="filter-tabs__divider">|</span>
-                <button class="filter-tabs__btn" data-sort="abc">ABC순</button>
-            </section>
-
-            <section class="artist-list__card-wrap mt-2">
-                <div class="card-artist-grid"></div>
-            </section>
-
-
-            <div class="pagination mt" id="pagination">
-                <button class="pagination__btn pagination__first" data-page="first">
-                    <i class="fa-solid fa-angles-left"></i>
-                </button>
-                <button class="pagination__btn pagination__prev" data-page="prev">
-                    <i class="fa-solid fa-angle-left"></i>
-                </button>
-                <div class="pagination__pages"></div>
-                <button class="pagination__btn pagination__next" data-page="next">
-                    <i class="fa-solid fa-angle-right"></i>
-                </button>
-                <button class="pagination__btn pagination__next" data-page="last">
-                    <i class="fa-solid fa-angles-right"></i>
-                </button>
+                    <a href="./artist-detail.html" class="breadcrumb__item--current">자세히보기</a>
+                </nav>
             </div>
+        </div>
+
+        <div class="container artist-detail__container">
+            <div class="artist-detail__profile">
+                <div class="artist-detail__icon"></div>
+                <h2 class="artist-detail__name mt-2">디도리</h2>
+                <p class="artist-detail__bio">당신의 일상에 단정한 귀여움을!</p>
+            </div>
+        </div>
+        <ul class="artist-detail__sns mt-4">
+            <li class="artist-detail__sns-list">
+                <a href="#">
+                    <img src="./assets/images/artistSNS_Logo_1.webp" alt="인스타그램">
+                </a>
+            </li>
+            <li class="artist-detail__sns-list">
+                <a href="#">
+                    <img src="./assets/images/artistSNS_Logo_2.webp" alt="X">
+                </a>
+            </li>
+            <li class="artist-detail__sns-list">
+                <a href="#">
+                    <img src="./assets/images/artistSNS_Logo_3.webp" alt="네이버스토어">
+                </a>
+            </li>
+            <li class="artist-detail__sns-list">
+                <a href="#">
+                    <img src="./assets/images/artistSNS_Logo_4.webp" alt="포스타입">
+                </a>
+            </li>
+        </ul>
+
+
+        <div class="artist-detail__line mt-4"></div>
+
+        <div class="container">
+            <div class="artist-detail__contents mt-5">
+                <div class="sub-title">작가의 테마</div>
+                <div class="card-theme-grid mt-2"></div>
+            </div>
+        </div>
+
+
+
+        <div class="pagination mt" id="pagination">
+            <button class="pagination__btn pagination__first" data-page="first">
+                <i class="fa-solid fa-angles-left"></i>
+            </button>
+            <button class="pagination__btn pagination__prev" data-page="prev">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <div class="pagination__pages"></div>
+            <button class="pagination__btn pagination__next" data-page="next">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+            <button class="pagination__btn pagination__next" data-page="last">
+                <i class="fa-solid fa-angles-right"></i>
+            </button>
         </div>
     </main>
 
@@ -172,9 +203,10 @@
         </div>
     </footer>
 
+
     <script src="./assets/js/jquery-1.12.3.js"></script>
     <script src="./assets/js/common.js"></script>
-    <script src="./assets/js/artist-list.js"></script>
+    <script src="./assets/js/artist-detail.js"></script>
 </body>
 
 </html>

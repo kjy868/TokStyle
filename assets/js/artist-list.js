@@ -54,7 +54,7 @@ $(function () {
 
         list.forEach(a => {
             html += `
-                <a href="#" class="card-artist">
+                <a href="artist-detail.html" class="card-artist">
                     <div class="card-artist__img-wrap">
                         <img src="${a.bg ?? './assets/images/artists/artist_blank.webp'}">
                     </div>
