@@ -1330,6 +1330,9 @@ button {
 }
 
 .btn-black {
+  border: none;
+  outline: none;
+  background: none;
   padding: 0.9375rem 3.75rem;
   background-color: #191919;
   color: #fff;
@@ -2712,6 +2715,53 @@ button {
   .theme-list__filter-wrap .dropdown-btn {
     white-space: nowrap;
   }
+}
+
+.theme-detail__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1.875rem;
+}
+.theme-detail__preview {
+  width: 100%;
+  max-width: 51.375rem;
+  aspect-ratio: 1.108033241;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+.theme-detail__preview img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.theme-detail__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
 }
 
 .artist-list__card-wrap .card-artist-grid {

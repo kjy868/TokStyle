@@ -1,3 +1,28 @@
 @use '../variables' as v;
 @use '../utils.scss' as u;
 @use '../layout' as l;
+
+.theme-detail {
+    &__header {
+        @include u.flex(flex, center, center);
+        gap: u.rem(30);
+    }
+
+    &__preview {
+        width: 100%;
+        max-width: u.rem(822);
+        aspect-ratio: u.rem(800)/u.rem(722);
+        border-radius: u.rem(20);
+        overflow: hidden;
+        border: 1px solid v.$Color_Silver;
+
+        img {
+            @include u.img();
+        }
+    }
+
+    &__info {
+        @include u.flex(flex, start, right, column);
+        height: 100%;
+    }
+}
