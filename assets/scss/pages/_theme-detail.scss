@@ -2,16 +2,29 @@
 @use '../utils.scss' as u;
 @use '../layout' as l;
 
+/* header section */
 .theme-detail {
     &__header {
-        @include u.flex(flex, center, center);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: u.rem(30);
+        width: 100%;
+
+        align-items: stretch;
+
+        @include u.responsive(md) {
+            grid-template-columns: 1fr;
+        }
+
+        @include u.responsive(sm) {
+            gap: u.rem(15);
+        }
     }
 
     &__preview {
         width: 100%;
-        max-width: u.rem(822);
-        aspect-ratio: u.rem(800)/u.rem(722);
+        height: 100%;
+        aspect-ratio: 800/720;
         border-radius: u.rem(20);
         overflow: hidden;
         border: 1px solid v.$Color_Silver;
@@ -19,16 +32,206 @@
         img {
             @include u.img();
         }
+
+        @include u.responsive(md) {
+            width: 100%;
+            height: auto;
+        }
     }
 
     &__info {
-        @include u.flex(flex, start, right, column);
+        @include u.flex(flex, space-between, flex-start, column);
+        gap: u.rem(50);
         width: 100%;
-        height: 100%;
+
+        @include u.responsive (lg) {
+            gap: u.rem(40);
+        }
+
+        @include u.responsive (md) {
+            gap: u.rem(30);
+        }
+    }
+
+    &__body {
+        @include u.flex($flexDirection: column);
+        gap: u.rem(40);
+
+        @include u.responsive (lg) {
+            gap: u.rem(30);
+        }
+
+        @include u.responsive (md) {
+            gap: u.rem(20);
+        }
     }
 
     &__text-head {
         @include u.flex($flexDirection: column);
+        gap: u.rem(10);
+
+        @include u.responsive (md) {
+            gap: u.rem(5);
+        }
+    }
+
+    &__title {
         font-family: 'Paperozi';
+        font-size: u.rem(36);
+        font-weight: 500;
+        color: v.$Color_Head_Black;
+
+        @include u.responsive (lg) {
+            font-size: u.rem(30);
+        }
+
+        @include u.responsive (md) {
+            font-size: u.rem(28);
+        }
+
+        @include u.responsive (sm) {
+            font-size: u.rem(24);
+        }
+    }
+
+    &__meta {
+        @include u.flex($flexDirection: column);
+        gap: u.rem(10);
+        color: v.$Color_Grey;
+        font-size: u.rem(20);
+        font-weight: 400;
+
+        span:last-child {
+            font-size: u.rem(18);
+            font-weight: 300;
+
+            @include u.responsive (md) {
+                font-size: u.rem(16);
+            }
+
+            @include u.responsive (sm) {
+                font-size: u.rem(14);
+            }
+        }
+
+        @include u.responsive (md) {
+            font-size: u.rem(16);
+            gap: u.rem(5);
+        }
+
+        @include u.responsive (sm) {
+            font-size: u.rem(14);
+        }
+    }
+
+    &__desc {
+        font-size: u.rem(24);
+        font-weight: 400;
+        color: v.$Color_Foot_Black;
+
+        @include u.responsive (lg) {
+            font-size: u.rem(20);
+        }
+
+        @include u.responsive (md) {
+            font-size: u.rem(18);
+        }
+    }
+
+    &__btns {
+        @include u.flex($alignItems: center);
+        gap: u.rem(15);
+        flex-wrap: wrap;
+
+        @include u.responsive(sm) {
+            gap: u.rem(10);
+        }
+    }
+
+    &__artist {
+        border: 1px solid v.$Color_Silver;
+        @include u.flex($alignItems: center);
+        gap: u.rem(20);
+        padding: u.rem(20);
+        border-radius: u.rem(18);
+        max-width: u.rem(600);
+        width: 100%;
+        // margin-top: u.rem(130);
+
+        @include u.responsive(lg) {
+            padding: u.rem(15);
+            border-radius: u.rem(15);
+        }
+
+        img {
+            border-radius: 50%;
+            width: u.rem(70);
+            border: 1px solid v.$Color_Silver;
+
+            @include u.responsive(lg) {
+                width: u.rem(50);
+            }
+        }
+
+        &-name {
+            @include u.flex(flex, start, start, column);
+            gap: u.rem(4);
+            font-size: u.rem(20);
+            color: v.$Color_Foot_Black;
+
+            @include u.responsive(md) {
+                font-size: u.rem(18);
+            }
+
+            span {
+                font-size: u.rem(18);
+                font-weight: 300;
+                color: v.$Color_D_Grey;
+
+                @include u.responsive(md) {
+                    font-size: u.rem(16);
+                }
+            }
+        }
+    }
+}
+
+/* screenshots section */
+.theme-detail {
+    &__block {
+        width: 100%;
+        border-radius: u.rem(20) u.rem(20) 0 0;
+        background-color: v.$Color_Silver;
+        margin-top: u.rem(50);
+        padding: u.rem(100) 0;
+
+        .container {
+            @include u.flex(flex, center, center, column);
+            gap: u.rem(140);
+        }
+    }
+
+    &__screens {
+        text-align: center;
+        word-break: keep-all;
+    }
+
+    &__subtitle {
+        font-family: 'Paperozi';
+        font-size: u.rem(36);
+        font-weight: 500;
+        color: v.$Color_Head_Black;
+
+        @include u.responsive (lg) {
+            font-size: u.rem(30);
+        }
+
+        @include u.responsive (md) {
+            font-size: u.rem(28);
+        }
+
+        @include u.responsive (sm) {
+            font-size: u.rem(24);
+        }
     }
 }

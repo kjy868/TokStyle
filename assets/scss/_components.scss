@@ -1,6 +1,5 @@
 @use './variables' as v;
 @use './utils' as u;
-// button, card, modal etc
 
 // swiper pagination
 .swiper-pagination {
@@ -147,9 +146,44 @@
         transform: scale(1.02) translateY(-2px);
     }
 
+    @include u.responsive(lg) {
+        padding: u.rem(16) u.rem(40);
+    }
+
     @include u.responsive(sm) {
         font-size: u.rem(14);
         padding: u.rem(12) u.rem(30);
+    }
+}
+
+.btn-black-line {
+    @include u.btnReset();
+    padding: u.rem(15) u.rem(50);
+    background-color: v.$Color_White;
+    color: v.$Color_Btn_Black;
+    border: 1px solid v.$Color_D_Grey;
+    font-family: 'Pretendard';
+    border-radius: u.rem(50);
+    font-size: u.rem(18);
+    transition: 0.2s all ease;
+
+    &:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+        transform: scale(1.02) translateY(-2px);
+    }
+
+    &:active {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+        transform: scale(1.02) translateY(-2px);
+    }
+
+    @include u.responsive(lg) {
+        padding: u.rem(16) u.rem(40);
+    }
+
+    @include u.responsive(sm) {
+        font-size: u.rem(14);
+        padding: u.rem(12) u.rem(20);
     }
 }
 
