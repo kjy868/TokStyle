@@ -38,7 +38,7 @@ $(document).ready(function () {
         return `
             <div class="swiper-slide">
                 <div class="popular__card card-theme">
-                    <a href="#" class="card-theme__link"> 
+                    <a href="./theme-detail.html" class="card-theme__link"> 
                         <div class="card-theme__img-wrap">
                             <img src="${theme.thumbnail}" alt="테마이미지" class="card-theme__img">
                         </div>

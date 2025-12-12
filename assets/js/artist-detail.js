@@ -21,7 +21,7 @@ $(function () {
             const isFree = theme.free ? "무료" : "유료";
 
             const card = `
-                <a href="./theme-detail.html?id=${theme.id}" class="card-theme-list">
+                <a href="./theme-detail.html" class="card-theme-list">
                     <div class="card-theme-list__img-wrap">
                         <img src="${theme.thumbnail}" alt="${theme.title}" class="card-theme-list__img">
                     </div>

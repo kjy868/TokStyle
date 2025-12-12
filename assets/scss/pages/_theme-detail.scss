@@ -200,14 +200,25 @@
 .theme-detail {
     &__block {
         width: 100%;
+        max-width: u.rem(1600);
+        margin: 0 auto;
         border-radius: u.rem(20) u.rem(20) 0 0;
         background-color: v.$Color_Silver;
         margin-top: u.rem(50);
-        padding: u.rem(100) 0;
+        padding: u.rem(70) 0 u.rem(160);
+
 
         .container {
             @include u.flex(flex, center, center, column);
             gap: u.rem(140);
+        }
+
+        @include u.responsive(lg) {
+            margin-top: u.rem(80) 0 u.rem(160);
+        }
+
+        @include u.responsive(md) {
+            margin-top: u.rem(80) 0 u.rem(100);
         }
     }
 
@@ -234,4 +245,205 @@
             font-size: u.rem(24);
         }
     }
+
+    &__screens-desc {
+        font-size: u.rem(18);
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .screens {
+        @include u.flex(flex, center, center, column);
+        width: 100%;
+        margin-top: u.rem(60);
+
+        @include u.responsive(md) {
+            margin-top: u.rem(30);
+        }
+
+        &__img-wrap {
+            @include u.flex();
+            gap: u.rem(20);
+            width: 100%;
+
+            @include u.responsive (sm) {
+                @include u.flex(flex, center, center, column)
+            }
+        }
+
+        &-img {
+            width: calc((100% - u.rem(20)) / 2);
+            border-radius: u.rem(20);
+
+            @include u.responsive(sm) {
+                width: 100%;
+            }
+        }
+
+        p {
+            font-size: u.rem(24);
+            color: v.$Color_D_Grey;
+
+            @include u.responsive(lg) {
+                font-size: u.rem(16);
+            }
+        }
+
+        &__notice {
+            font-size: u.rem(24);
+            font-weight: 400;
+
+            @include u.responsive(lg) {
+                font-size: u.rem(20);
+            }
+
+            @include u.responsive(md) {
+                font-size: u.rem(16);
+            }
+        }
+
+        &-btn {
+            margin-top: u.rem(50);
+
+            @include u.responsive(md) {
+                margin-top: u.rem(40);
+            }
+        }
+    }
+}
+
+/* install guide */
+.theme-detail {
+    &__guide {
+        text-align: center;
+        @include u.flex(flex, center, center, column);
+        gap: u.rem(40);
+
+        @include u.responsive(lg) {
+            gap: u.rem(30);
+        }
+    }
+
+    &__install-guide {
+        @include u.flex(flex, center, center, column);
+        gap: u.rem(20);
+
+        h3 {
+            font-size: u.rem(26);
+
+            @include u.responsive(md) {
+                font-size: u.rem(22);
+            }
+        }
+
+        ol {
+            @include u.flex(flex, center, center, column);
+            gap: u.rem(20);
+            color: v.$Color_Conts_Black;
+            word-break: keep-all;
+        }
+
+        li {
+            font-weight: 500;
+            font-size: u.rem(24);
+
+            @include u.responsive(lg) {
+                font-size: u.rem(18);
+            }
+
+            @include u.responsive(md) {
+                font-size: u.rem(16);
+            }
+
+            span {
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+/* recommand themes */
+.theme-detail {
+    &__subtitle {
+        text-align: center;
+    }
+
+    .related-grid {
+        width: 100%;
+        @include u.flex(flex, center, center);
+        gap: u.rem(30);
+
+        @include u.responsive(lg) {
+            gap: u.rem(20);
+        }
+
+        @include u.responsive(md) {
+            gap: u.rem(10);
+        }
+
+        @include u.responsive(sm) {
+            flex-direction: column;
+            gap: u.rem(20);
+        }
+    }
+
+    .related-item {
+        width: calc((100% - u.rem(30)) / 3);
+        @include u.flex($flexDirection: column);
+        gap: u.rem(8);
+
+
+        @include u.responsive(lg) {
+            width: calc((100% - u.rem(20)) / 2);
+        }
+
+        @include u.responsive(md) {
+            width: calc((100% - u.rem(10)) / 2);
+        }
+
+        @include u.responsive(sm) {
+            width: 100%;
+        }
+
+        &-img {
+            width: 100%;
+            aspect-ratio: 5/4;
+            overflow: hidden;
+            border-radius: u.rem(20);
+
+            img {
+                @include u.img();
+            }
+        }
+
+        &:last-child {
+            @include u.responsive(lg) {
+                display: none;
+            }
+        }
+
+        &-title {
+            font-size: u.rem(20);
+            font-weight: 500;
+
+            @include u.responsive(lg) {
+                font-size: u.rem(16);
+            }
+        }
+
+        &-artist {
+            @include u.flex($alignItems: center);
+            gap: u.rem(8);
+            font-weight: 400;
+
+            img {
+                width: u.rem(25);
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+.theme-detail-footer {
+    margin: 0;
 }

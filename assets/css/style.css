@@ -104,8 +104,16 @@
   margin-top: 2.5rem;
 }
 
+.mt-3 {
+  margin-top: 1.875rem;
+}
+
 .mt-2 {
   margin-top: 1.25rem;
+}
+
+.mt-1 {
+  margin-top: 0.625rem;
 }
 
 html,
@@ -1338,7 +1346,7 @@ button {
   color: #fff;
   font-family: "Pretendard";
   border-radius: 3.125rem;
-  font-size: 1.125rem;
+  font-size: 1.625rem;
   -webkit-transition: 0.2s all ease;
   transition: 0.2s all ease;
 }
@@ -3051,10 +3059,12 @@ button {
 /* screenshots section */
 .theme-detail__block {
   width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
   border-radius: 1.25rem 1.25rem 0 0;
   background-color: #eee;
   margin-top: 3.125rem;
-  padding: 6.25rem 0;
+  padding: 4.375rem 0 10rem;
 }
 .theme-detail__block .container {
   display: -webkit-box;
@@ -3071,6 +3081,16 @@ button {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 8.75rem;
+}
+@media (max-width: 1023px) {
+  .theme-detail__block {
+    margin-top: 5rem 0 10rem;
+  }
+}
+@media (max-width: 767px) {
+  .theme-detail__block {
+    margin-top: 5rem 0 6.25rem;
+  }
 }
 .theme-detail__screens {
   text-align: center;
@@ -3096,6 +3116,314 @@ button {
   .theme-detail__subtitle {
     font-size: 1.5rem;
   }
+}
+.theme-detail__screens-desc {
+  font-size: 1.125rem;
+  font-weight: 500;
+  width: 100%;
+}
+.theme-detail .screens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-top: 3.75rem;
+}
+@media (max-width: 767px) {
+  .theme-detail .screens {
+    margin-top: 1.875rem;
+  }
+}
+.theme-detail .screens__img-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1.25rem;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .theme-detail .screens__img-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.theme-detail .screens-img {
+  width: calc((100% - 1.25rem) / 2);
+  border-radius: 1.25rem;
+}
+@media (max-width: 480px) {
+  .theme-detail .screens-img {
+    width: 100%;
+  }
+}
+.theme-detail .screens p {
+  font-size: 1.5rem;
+  color: #818181;
+}
+@media (max-width: 1023px) {
+  .theme-detail .screens p {
+    font-size: 1rem;
+  }
+}
+.theme-detail .screens__notice {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+@media (max-width: 1023px) {
+  .theme-detail .screens__notice {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 767px) {
+  .theme-detail .screens__notice {
+    font-size: 1rem;
+  }
+}
+.theme-detail .screens-btn {
+  margin-top: 3.125rem;
+}
+@media (max-width: 767px) {
+  .theme-detail .screens-btn {
+    margin-top: 2.5rem;
+  }
+}
+
+/* install guide */
+.theme-detail__guide {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.5rem;
+}
+@media (max-width: 1023px) {
+  .theme-detail__guide {
+    gap: 1.875rem;
+  }
+}
+.theme-detail__install-guide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.25rem;
+}
+.theme-detail__install-guide h3 {
+  font-size: 1.625rem;
+}
+@media (max-width: 767px) {
+  .theme-detail__install-guide h3 {
+    font-size: 1.375rem;
+  }
+}
+.theme-detail__install-guide ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.25rem;
+  color: #2c2c2c;
+  word-break: keep-all;
+}
+.theme-detail__install-guide li {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+@media (max-width: 1023px) {
+  .theme-detail__install-guide li {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 767px) {
+  .theme-detail__install-guide li {
+    font-size: 1rem;
+  }
+}
+.theme-detail__install-guide li span {
+  font-weight: 400;
+}
+
+/* recommand themes */
+.theme-detail__subtitle {
+  text-align: center;
+}
+.theme-detail .related-grid {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1.875rem;
+}
+@media (max-width: 1023px) {
+  .theme-detail .related-grid {
+    gap: 1.25rem;
+  }
+}
+@media (max-width: 767px) {
+  .theme-detail .related-grid {
+    gap: 0.625rem;
+  }
+}
+@media (max-width: 480px) {
+  .theme-detail .related-grid {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1.25rem;
+  }
+}
+.theme-detail .related-item {
+  width: calc((100% - 1.875rem) / 3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.5rem;
+}
+@media (max-width: 1023px) {
+  .theme-detail .related-item {
+    width: calc((100% - 1.25rem) / 2);
+  }
+}
+@media (max-width: 767px) {
+  .theme-detail .related-item {
+    width: calc((100% - 0.625rem) / 2);
+  }
+}
+@media (max-width: 480px) {
+  .theme-detail .related-item {
+    width: 100%;
+  }
+}
+.theme-detail .related-item-img {
+  width: 100%;
+  aspect-ratio: 5/4;
+  overflow: hidden;
+  border-radius: 1.25rem;
+}
+.theme-detail .related-item-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 1023px) {
+  .theme-detail .related-item:last-child {
+    display: none;
+  }
+}
+.theme-detail .related-item-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+@media (max-width: 1023px) {
+  .theme-detail .related-item-title {
+    font-size: 1rem;
+  }
+}
+.theme-detail .related-item-artist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 0.5rem;
+  font-weight: 400;
+}
+.theme-detail .related-item-artist img {
+  width: 1.5625rem;
+  border-radius: 50%;
+}
+
+.theme-detail-footer {
+  margin: 0;
 }
 
 .artist-list__card-wrap .card-artist-grid {

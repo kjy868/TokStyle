@@ -145,13 +145,15 @@
                 <section class="theme-detail__screens">
                     <div class="theme-detail__screens-title-wrap">
                         <h2 class="theme-detail__subtitle">테마 상세</h2>
-                        <p class="theme-detail__screens-desc">이번 테마는 작고 무서운(?) 친구들과 함께 보내는 [토마코의 할로윈!]입니다.</p>
+                        <p class="theme-detail__screens-desc mt-1">이번 테마는 작고 무서운(?) 친구들과 함께 보내는 [토마코의 할로윈!]입니다.</p>
                     </div>
 
                     <div class="screens">
-                        <img src="./assets/images/screen01.webp" alt="테마 상세 이미지01" class="screen-img">
-                        <img src="./assets/images/screen02.webp" alt="테마 상세 이미지02" class="screen-img">
-                        <p>사용한 폰트: '도스샘물'</p>
+                        <div class="screens__img-wrap">
+                            <img src="./assets/images/screen01.webp" alt="테마 상세 이미지01" class="screens-img">
+                            <img src="./assets/images/screen02.webp" alt="테마 상세 이미지02" class="screens-img">
+                        </div>
+                        <p class="mt-1">사용한 폰트: '도스샘물'</p>
                     </div>
 
                     <p class="screens__notice mt-4">
@@ -161,7 +163,8 @@
                         원하는 버전으로 다운받아 사용해 주세요!
                     </p>
 
-                    <button class="btn-black mt-5"><i class="fa-solid fa-download"></i> 다운로드 바로가기</button>
+                    <button class="btn-black screens-btn"><i class="fa-solid fa-download"></i> 다운로드
+                        바로가기</button>
                 </section>
 
                 <!-- install guide -->
@@ -172,21 +175,21 @@
                         <h3>iOS</h3>
                         <ol>
                             <li>
-                                파일 다운로드
+                                1. 파일 다운로드<br>
                                 <span>
                                     다운로드 바로가기를 눌러 원하는 테마를 다운로드 받아주세요.<br>
                                     *반드시 “ktheme” 확장자를 확인하셔야 합니다.
                                 </span>
                             </li>
                             <li>
-                                카카오톡 나에게 공유하기
+                                2. 카카오톡 나에게 공유하기<br>
                                 <span>
                                     다운로드한 테마 파일을 ‘공유하기’ 버튼으로 카카오톡에서 ‘나와의 채팅(나에게)’으로 전송합니다.<br>
                                     *PC에서 받은 파일은 메일이나 카카오톡 등으로 내 아이폰에 옮겨도 괜찮습니다.
                                 </span>
                             </li>
                             <li>
-                                공유한 파일 누르고 테마 적용하기
+                                3. 공유한 파일 누르고 테마 적용하기<br>
                                 <span>
                                     카카오톡 앱을 열어 전송된 .ktheme 파일을 누르면<br>
                                     나오는 ‘테마 적용하기’ 메뉴를 선택합니다.
@@ -199,21 +202,21 @@
                         <h3>Android</h3>
                         <ol>
                             <li>
-                                파일 다운로드
+                                1. 파일 다운로드<br>
                                 <span>
                                     다운로드 바로가기를 눌러 원하는 테마를 다운로드 받아주세요.<br>
                                     *반드시 “apk” 확장자를 확인하셔야 합니다.
                                 </span>
                             </li>
                             <li>
-                                앱 설치하기
+                                2. 앱 설치하기<br>
                                 <span>
                                     다운로드가 완료되면 파일을 눌러주세요.<br>
                                     *출처를 알 수 없는 앱 경고문이 뜨면 무시하고 설치를 눌러주셔야 합니다.
                                 </span>
                             </li>
                             <li>
-                                설치된 앱 들어가서 테마 적용하기
+                                3. 설치된 앱 들어가서 테마 적용하기<br>
                                 <span>
                                     설치된 앱을 열면 나오는 ‘테마 적용하기’ 버튼을 누르면 테마가 적용됩니다.
                                 </span>
@@ -226,8 +229,8 @@
                 <section class="theme-detail__recommand">
                     <h2 class="theme-detail__subtitle">비슷한 분위기의 테마</h2>
 
-                    <div class="related-grid">
-                        <a href="./artist-detail.html" class="related-item">
+                    <div class="related-grid mt-3">
+                        <a href="./theme-detail.html" class="related-item">
                             <div class="related-item-img">
                                 <img src="./assets/images/themes/artist5/theme07.webp" alt="추천 테마 이미지01">
                             </div>
@@ -239,7 +242,7 @@
                                 <p class="related-item-artist-name">디도리</p>
                             </div>
                         </a>
-                        <a href="./artist-detail.html" class="related-item">
+                        <a href="./theme-detail.html" class="related-item">
                             <div class="related-item-img">
                                 <img src="./assets/images/themes/artist5/theme05.webp" alt="추천 테마 이미지02">
                             </div>
@@ -251,7 +254,7 @@
                                 <p class="related-item-artist-name">디도리</p>
                             </div>
                         </a>
-                        <a href="./artist-detail.html" class="related-item">
+                        <a href="./theme-detail.html" class="related-item">
                             <div class="related-item-img">
                                 <img src="./assets/images/themes/artist5/theme01.webp" alt="추천 테마 이미지03">
                             </div>
@@ -269,7 +272,7 @@
         </div>
     </main>
 
-    <footer class=" footer" id="footer">
+    <footer class="footer theme-detail-footer" id="footer">
         <div class="container footer__container">
             <div class="footer__left">
                 <h1 class="footer__logo">
